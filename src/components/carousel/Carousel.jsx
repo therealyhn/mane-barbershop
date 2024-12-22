@@ -5,6 +5,9 @@ import 'swiper/css/pagination';
 import './Carousel.css';
 import BookButton from '../BookButton';
 import 'animate.css';
+import slide1 from '../../assets/slide-1.jpg';
+import slide2 from '../../assets/slide-2.jpg';
+import slide3 from '../../assets/slide-3.jpg';
 
 function Carousel() {
   return (
@@ -23,7 +26,7 @@ function Carousel() {
         <SwiperSlide>
           <div className="relative w-full h-full">
             <img
-              src="/src/assets/slide-1.jpg"
+              src={slide1}
               alt="Slide 1"
               className="w-full h-full object-cover"
             />
@@ -41,7 +44,7 @@ function Carousel() {
         <SwiperSlide>
           <div className="relative w-full h-full">
             <img
-              src="/src/assets/slide-2.jpg"
+              src={slide2}
               alt="Slide 2"
               className="w-full h-full object-cover"
             />
@@ -59,7 +62,7 @@ function Carousel() {
         <SwiperSlide>
           <div className="relative w-full h-full">
             <img
-              src="/src/assets/slide-3.jpg"
+              src={slide3}
               alt="Slide 3"
               className="w-full h-full object-cover"
             />

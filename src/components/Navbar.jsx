@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom'
 import BookButton from './BookButton'
+import logo from '../assets/logo-text.png';
+
 function Navbar() {
     return (
         <nav className="fixed top-0 left-0 w-full shadow-md z-50 bg-prime-dark">
             <div className="flex justify-evenly items-center p-4">
                 <div>
-                    <img src="/src/assets/logo-text.png" alt="logo" className="w-20" />
+                    <img src={logo} alt="logo" className="w-20" />
                 </div>
                 <div className="flex items-center gap-8">
                     <ul className="flex gap-8 uppercase">
