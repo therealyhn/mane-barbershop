@@ -1,13 +1,11 @@
+import Carousel from "../components/carousel/Carousel"
 
-import Carousel from '../components/Carousel';
-
-
-export default function Home() {
+function Home() {
     return (
-        <>
-
-            <Carousel />
-
-        </>
-    );
-}
+    <div className="w-full">
+        <Carousel />
+    </div>
+    )
+  }
+  
+  export default Home
