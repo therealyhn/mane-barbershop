@@ -44,27 +44,19 @@ function AboutSection() {
     return (
         // Add ref to the main container for intersection observer
         <div ref={sectionRef} className="flex flex-col md:flex-row items-center justify-between gap-20 
-         px-6 md:px-20 py-12 bg-light-gray">
+         px-6 md:px-20 py-12 bg-white">
             {/* Left Side */}
             <div className="flex flex-col items-center text-center md:w-1/2">
 
-                <h2 className={`text-xl text-prime-dark ${isVisible ? 'animate__animated animate__fadeInUp' : 'opacity-0'}`}>
+                <h2 className={`text-xl font-bold uppercase text-prime ${isVisible ? 'animate__animated animate__fadeInUp' : 'opacity-0'}`}>
                     Introducing
                 </h2>
 
-                <h1 className={`text-4xl font-bold text-prime mt-4 ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>
-                    Mane&apos;s Barbershop
-                </h1>
-
-                <h3 className={`text-xl text-second ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>
-                    Science 2023
-                </h3>
-
                 <div className={`my-8 ${isVisible ? 'animate__animated animate__fadeIn animate__delay-1s' : 'opacity-0'}`}>
-                    <img src={logo} alt="logo" className="w-[250px]" />
+                    <img src={logo} alt="logo" className="w-[300px]" />
                 </div>
 
-                <p className={`text-gray-600 text-base leading-relaxed max-w-xl text-center ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>
+                <p className={`text-third-dark text-base leading-relaxed max-w-xl text-center ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -92,7 +84,7 @@ function AboutSection() {
                     src={about3}
                     alt="Barber 3"
                     className={`absolute top-40 right-[40%] w-72 h-72 object-cover rounded-lg shadow-xl
-                    ${isVisible ? 'animate__animated animate__fadeInLeft animate__delay-2s' : 'opacity-0'}`}
+                    ${isVisible ? 'animate__animated animate__fadeInLeft animate__delay-1s' : 'opacity-0'}`}
                 />
             </div>
         </div>

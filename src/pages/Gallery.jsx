@@ -1,3 +1,4 @@
+
 function Gallery() {
     return (
       <div className="gallery">

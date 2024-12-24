@@ -13,6 +13,7 @@ export default {
         'second': '#777777',
         'third': '#999999',
         'light-gray': '#dddddd',
+        'bgprime': '#fcf9f5'
       },
     },
   },

@@ -31,6 +31,8 @@ function Navbar() {
                     <ul className="flex gap-8 uppercase">
                         <li><Link to="/" className="text-light-gray hover:text-white
                          transition-all duration-300 text-sm font-bold">Home</Link></li>
+                        <li><Link to="/about" className="text-light-gray hover:text-white
+                         transition-all duration-300 text-sm font-bold">About</Link></li>
                         <li><Link to="/services" className="text-light-gray hover:text-white
                          transition-all duration-300 text-sm font-bold">Services</Link></li>
                         <li><Link to="/gallery" className="text-light-gray hover:text-white
@@ -49,10 +51,16 @@ function Navbar() {
                     } ${!isMenuOpen && 'hidden'}`}
                 >
                     <ul className="flex flex-col items-center py-4">
-                        <li className="py-2"><Link to="/" className="text-light-gray hover:text-white transition-all duration-300 text-sm font-bold">Home</Link></li>
-                        <li className="py-2"><Link to="/services" className="text-light-gray hover:text-white transition-all duration-300 text-sm font-bold">Services</Link></li>
-                        <li className="py-2"><Link to="/gallery" className="text-light-gray hover:text-white transition-all duration-300 text-sm font-bold">Gallery</Link></li>
-                        <li className="py-2"><Link to="/contact" className="text-light-gray hover:text-white transition-all duration-300 text-sm font-bold">Contact</Link></li>
+                        <li className="py-2"><Link to="/" className="text-light-gray hover:text-white transition-all duration-300 
+                        text-sm font-bold">Home</Link></li>
+                        <li className="py-2"><Link to="/about" className="text-light-gray hover:text-white transition-all duration-300 
+                        text-sm font-bold">About</Link></li>
+                        <li className="py-2"><Link to="/services" className="text-light-gray hover:text-white transition-all duration-300 
+                        text-sm font-bold">Services</Link></li>
+                        <li className="py-2"><Link to="/gallery" className="text-light-gray hover:text-white transition-all duration-300 
+                        text-sm font-bold">Gallery</Link></li>
+                        <li className="py-2"><Link to="/contact" className="text-light-gray hover:text-white transition-all duration-300 
+                        text-sm font-bold">Contact</Link></li>
                         <li className="py-2"><BookButton /></li>
                     </ul>
                 </div>

@@ -1,6 +1,12 @@
+import { useNavigate } from 'react-router-dom'
+
 function BookButton() {
+    const navigate = useNavigate();
+
     return (
-        <button className="relative bg-prime text-white px-8 py-3 rounded-sm uppercase text-sm
+        <button 
+            onClick={() => navigate('/appointment')}
+            className="relative bg-prime text-white px-8 py-3 rounded-sm uppercase text-sm
             overflow-hidden group">
             <span className="relative z-10">Book Appointment</span>
             <div className="absolute inset-0 bg-third-dark transform translate-x-[-100%] 
