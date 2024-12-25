@@ -3,9 +3,14 @@ import { useNavigate } from 'react-router-dom'
 function ServicesButton() {
     const navigate = useNavigate();
 
+    const handleClick = () => {
+        navigate('/services');
+        window.scrollTo(0, 0);
+    };
+
     return (
         <button 
-            onClick={() => navigate('/services')}
+            onClick={handleClick}
             className="relative bg-prime text-white px-8 py-3 rounded-sm uppercase text-sm
             overflow-hidden group">
             <span className="relative z-10">Our Services</span>

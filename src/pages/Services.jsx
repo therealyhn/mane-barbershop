@@ -1,20 +1,22 @@
+import AllServices from "../components/AllServices"
+import PriceSection from "../components/PriceSection"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import servicesHeaderImg from "../assets/page-header.jpg"
+
 function Services() {
     return (
-      <div className="services">
-        <h1>Our Services</h1>
-        <div className="services-list">
-          <div className="service-item">
-            <h3>Haircut</h3>
-            <p>Professional haircut tailored to your style</p>
-          </div>
-          <div className="service-item">
-            <h3>Beard Trim</h3>
-            <p>Expert beard grooming and styling</p>
-          </div>
-          {/* Add more services as needed */}
+        <div className="w-full">
+            <Header 
+                title="Our Services" 
+                subtitle={<div className="text-center px-4">Professional Grooming Services for the Modern Gentleman</div>}
+                image={servicesHeaderImg}
+            />
+            <AllServices />
+            <PriceSection />
+            <Footer />
         </div>
-      </div>
     )
-  }
-  
-  export default Services
+}
+
+export default Services
