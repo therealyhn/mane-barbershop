@@ -9,7 +9,7 @@ function Services() {
         <div className="w-full">
             <Header 
                 title="Our Services" 
-                subtitle={<div className="text-center px-4">Professional Grooming Services for the Modern Gentleman</div>}
+                subtitle="Professional Grooming Services for the Modern Gentleman"
                 image={servicesHeaderImg}
             />
             <AllServices />

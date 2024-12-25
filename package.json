@@ -12,8 +12,10 @@
   "dependencies": {
     "@rollup/plugin-inject": "^5.0.5",
     "animate.css": "^4.1.1",
+    "leaflet": "^1.9.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
     "react-owl-carousel": "^2.3.3",
     "react-router-dom": "^7.1.0",
     "swiper": "^11.1.15"

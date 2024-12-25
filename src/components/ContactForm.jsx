@@ -1,58 +1,59 @@
-import contactImg from '../assets/book.jpg'
-
 function ContactForm() {
     return (
-        <div className="relative">
-            <img src={contactImg} alt="Contact" className='w-full h-[80vh] object-cover' />
-            <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                <form className="bg-transparent p-8 rounded-lg shadow-lg w-full max-w-2xl">
-                    <h2 className="text-3xl font-bold text-white mb-6 text-center">Contact Us</h2>
-
-                    <div className="mb-4">
-                        <label htmlFor="name" className="block text-white text-sm font-bold mb-2">
-                            Name
-                        </label>
-                        <input type="text" id="name" className="w-full px-3 py-2 border border-light-gray 
-                        rounded focus:outline-none focus:border-prime" placeholder="Your Name" required />
+        <div className="w-full bg-bgprime">
+            <div className="flex flex-col lg:flex-row gap-20 w-full py-20 px-4 max-w-7xl mx-auto">
+                {/* Left side */}
+                <div className="flex-1 space-y-8">
+                    <div>
+                        <h2 className="text-4xl font-bold mb-4">Get in touch with us & <br />send us message today!</h2>
+                        <p className="text-second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maxime voluptates facere. Architecto, maiores molestiae!</p>
                     </div>
 
-                    <div className="mb-4">
-                        <label htmlFor="phone" className="block text-white text-sm font-bold mb-2">
-                            Phone Number
-                        </label>
-                        <input type="tel" id="phone" className="w-full px-3 py-2 border border-light-gray rounded 
-                        focus:outline-none focus:border-prime" placeholder="Your Phone Number" required />
-                    </div>
+                    <div className="space-y-4">
+                        <div>
+                            <h3 className="text-xl mb-1">Prvog Maja, 35</h3>
+                            <p className="text-xl">Smederevo, Serbia</p>
+                        </div>
 
-                    <div className="mb-4">
-                        <label htmlFor="service" className="block text-white text-sm font-bold mb-2">
-                            Service
-                        </label>
-                        <select id="service" className="w-full px-3 py-2 border border-light-gray rounded 
-                        focus:outline-none focus:border-prime" required>
-                            <option value="">Select a Service</option>
-                            <option value="haircut">Haircut</option>
-                            <option value="beard">Beard</option>
-                            <option value="haircut-beard">Haircut & Beard</option>
-                            <option value="eyebrows">Eyebrows</option>
-                            <option value="design">Design</option>
-                        </select>
+                        <div>
+                            <p className="text-second-dark">Email: manebarbershop@gmail.com</p>
+                            <p className="text-second-dark">Phone: +381 12 345 6789</p>
+                        </div>
                     </div>
+                </div>
 
-                    <div className="mb-6">
-                        <label htmlFor="message" className="block text-white text-sm font-bold mb-2">
-                            Message
-                        </label>
-                        <textarea id="message" className="w-full px-3 py-2 border border-light-gray rounded 
-                        focus:outline-none focus:border-prime" rows="4" placeholder="Please let us know what time works best for you">
-                        </textarea>
-                    </div>
+                {/* Right side */}
+                <div className="flex-1">
+                    <form className="space-y-6 bg-white p-10 rounded-sm shadow-md">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <input
+                                type="text"
+                                placeholder="Name"
+                                className="w-full px-4 py-3 border border-gray-200 rounded focus:outline-none focus:border-prime"
+                                required
+                            />
+                            <input
+                                type="email"
+                                placeholder="Email"
+                                className="w-full px-4 py-3 border border-gray-200 rounded focus:outline-none focus:border-prime"
+                                required
+                            />
+                        </div>
 
-                    <button type="submit" className="w-full bg-prime text-white py-3 rounded
-                     hover:bg-prime-dark transition-colors duration-300 uppercase">
-                        Book Now
-                    </button>
-                </form>
+                        <textarea
+                            placeholder="Message"
+                            className="w-full px-4 py-3 border border-gray-200 rounded focus:outline-none focus:border-prime h-40"
+                            required
+                        ></textarea>
+
+                        <button
+                            type="submit"
+                            className="bg-prime text-white px-8 py-3 rounded hover:bg-prime/90 transition-all duration-300 uppercase text-sm"
+                        >
+                            Send Message
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     )

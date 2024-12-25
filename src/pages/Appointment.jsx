@@ -1,15 +1,22 @@
+import BookForm from "../components/BookForm"
+import ServicesSection from "../components/ServicesSection"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import servicesHeaderImg from "../assets/page-header.jpg"
+
 function Appointment() {
     return (
-      <div className="appointment">
-        <h1>Contact Us</h1>
-        <div className="contact-info">
-          <p>Address: Your Address Here</p>
-          <p>Phone: (123) 456-7890</p>
-          <p>Email: info@manebarbershop.com</p>
+        <div className="w-full">
+            <Header 
+                title="Make an Appointment" 
+                subtitle="Professional Grooming Services for the Modern Gentleman"
+                image={servicesHeaderImg}
+            />
+            <ServicesSection />
+            <BookForm />
+            <Footer />
         </div>
-        {/* Add a contact form if needed */}
-      </div>
     )
-  }
-  
-  export default Appointment
+}
+
+export default Appointment

@@ -1,15 +1,15 @@
+import Map from "../components/Map"
+import ContactForm from "../components/ContactForm"
+import Footer from "../components/Footer"
+
 function Contact() {
     return (
-      <div className="contact">
-        <h1>Contact Us</h1>
-        <div className="contact-info">
-          <p>Address: Your Address Here</p>
-          <p>Phone: (123) 456-7890</p>
-          <p>Email: info@manebarbershop.com</p>
+        <div className="w-full">
+            <Map />
+            <ContactForm />
+            <Footer />
         </div>
-        {/* Add a contact form if needed */}
-      </div>
     )
-  }
-  
-  export default Contact
+}
+
+export default Contact
