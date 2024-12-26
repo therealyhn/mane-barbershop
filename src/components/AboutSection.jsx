@@ -14,7 +14,7 @@ function AboutSection() {
 
     useEffect(() => {
         // Create intersection observer instance
-        const observer = new IntersectionObserver(
+        const observer = new IntersectionObserver(  
             ([entry]) => {
                 // When section enters viewport
                 if (entry.isIntersecting) {

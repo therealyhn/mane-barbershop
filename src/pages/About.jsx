@@ -1,20 +1,22 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import AboutSection from "../components/AboutSection"
+import AboutProfile from "../components/AboutProfile"
+import servicesHeaderImg from "../assets/page-header.jpg"
+
 function About() {
     return (
-      <div className="services">
-        <h1>Our Services</h1>
-        <div className="services-list">
-          <div className="service-item">
-            <h3>Haircut</h3>
-            <p>Professional haircut tailored to your style</p>
-          </div>
-          <div className="service-item">
-            <h3>Beard Trim</h3>
-            <p>Expert beard grooming and styling</p>
-          </div>
-          {/* Add more services as needed */}
+        <div className="w-full">
+            <Header 
+                title="About Me" 
+                subtitle="Professional Grooming Services for the Modern Gentleman"
+                image={servicesHeaderImg}
+            />
+            <AboutSection />
+            <AboutProfile />
+            <Footer />
         </div>
-      </div>
     )
-  }
-  
-  export default About
+}
+
+export default About
