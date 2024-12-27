@@ -45,12 +45,12 @@ function Footer() {
             </div>
 
             <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-gray-700 grid grid-cols-1 md:grid-cols-2 gap-4 text-center md:text-left">
-                <p className="text-sm text-gray-400">
+                <p className="text-sm text-light-gray">
                     © 2023 Mane Barbershop. All rights reserved.
                 </p>
-                <p className="text-sm text-gray-400 text-center md:text-right">
+                <p className="text-sm text-light-gray text-center md:text-right">
                     Designed by <a href="https://jovanljusic.com" target="_blank" rel="noopener noreferrer"
-                        className="hover:text-prime transition-colors">Jovan Ljusic</a>
+                        className="hover:text-third text-prime underline transition-colors">Jovan Ljusic</a>
                 </p>
             </div>
         </div>
