@@ -33,3 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     scrollbar-width: thin;  
     scrollbar-color: #9e8a78 #222227;  
   }
+
+  #loader-wrapper {
+    transition: opacity 0.5s ease-out;
+}
