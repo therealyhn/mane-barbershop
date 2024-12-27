@@ -5,6 +5,7 @@ import servicesHeaderImg from "../assets/page-header.jpg"
 import Navbar from "../components/Navbar"
 import Loader from "../components/Loader"
 import { useState, useEffect } from 'react'
+import { Helmet } from 'react-helmet';
 
 function MyWork() {
     const [loading, setLoading] = useState(true)
@@ -28,6 +29,9 @@ function MyWork() {
     }
     return (
         <div className="w-full">
+            <Helmet>
+                <title>My Work - Mane&apos;s Barbershop</title>
+            </Helmet>
             <Navbar />
             <Header
                 title="My Work"

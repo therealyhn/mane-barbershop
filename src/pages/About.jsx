@@ -6,6 +6,7 @@ import AboutProfile from "../components/AboutProfile"
 import servicesHeaderImg from "../assets/page-header.jpg"
 import { useState, useEffect } from 'react'
 import Loader from "../components/Loader"
+import { Helmet } from 'react-helmet';
 
 function About() {
     const [loading, setLoading] = useState(true)
@@ -29,6 +30,9 @@ function About() {
     }
     return (
         <div className="w-full">
+            <Helmet>
+                <title>About Me - Mane&apos;s Barbershop</title>
+            </Helmet>
             <Navbar />
             <Header 
                 title="About Me" 

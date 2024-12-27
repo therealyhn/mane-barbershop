@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import { useState, useEffect } from 'react'
 import Loader from "../components/Loader"
-
+import { Helmet } from 'react-helmet';
 
 function Contact() {
     const [loading, setLoading] = useState(true)
@@ -28,6 +28,9 @@ function Contact() {
     }
     return (
         <div className="w-full">
+            <Helmet>
+                <title>Contact Me - Mane&apos;s Barbershop</title> 
+            </Helmet>
             <Navbar />
             <Map />
             <ContactForm />

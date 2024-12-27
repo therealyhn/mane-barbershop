@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar"
 import servicesHeaderImg from "../assets/page-header.jpg"
 import { useState, useEffect } from 'react'
 import Loader from "../components/Loader"
+import { Helmet } from 'react-helmet'
 
 function Appointment() {
     const [loading, setLoading] = useState(true)
@@ -29,6 +30,9 @@ function Appointment() {
     }
     return (
         <div className="w-full">
+            <Helmet>
+                <title>Make an Appointment - Mane&apos;s Barbershop</title>
+            </Helmet>
             <Navbar />
             <Header 
                 title="Make an Appointment" 

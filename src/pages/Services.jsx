@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Loader from "../components/Loader"
 import servicesHeaderImg from "../assets/page-header.jpg"
+import { Helmet } from 'react-helmet';
 
 function Services() {
     const [loading, setLoading] = useState(true)
@@ -30,6 +31,9 @@ function Services() {
 
     return (
         <div className="w-full">
+            <Helmet>
+                <title>Our Services - Mane&apos;s Barbershop</title>
+            </Helmet>
             <Navbar />
             <Header 
                 title="Our Services" 

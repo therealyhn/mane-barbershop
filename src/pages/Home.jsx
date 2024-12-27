@@ -7,21 +7,19 @@ import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import { useState, useEffect } from 'react'
 import Loader from "../components/Loader"
-
+import { Helmet } from 'react-helmet'
 
 function Home() {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        // Simulate loading or wait for actual content
         window.onload = () => {
             setLoading(false)
         }
 
-        // Fallback in case window.onload doesn't trigger
         const timer = setTimeout(() => {
             setLoading(false)
-        }, 2000) // Adjust timeout as needed
+        }, 2000)
 
         return () => clearTimeout(timer)
     }, [])
@@ -31,6 +29,9 @@ function Home() {
     }
     return (
     <div className="w-full">
+        <Helmet>
+            <title>Welcome to Mane&apos;s Barbershop</title>
+        </Helmet>
         <Navbar />
         <Carousel />
         <AboutSection />
@@ -40,6 +41,6 @@ function Home() {
         <Footer />
     </div>
     )
-  }
+}
   
-  export default Home
+export default Home
