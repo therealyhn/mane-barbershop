@@ -25,15 +25,15 @@ function PriceSection() {
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base">Classic Haircut</span>
-                                <span className="text-third font-semibold">700 <span className="text-sm">rsd</span></span>
+                                <span className="text-third font-semibold font-prata">700 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base">Fade Haircut</span>
-                                <span className="text-third font-semibold">800 <span className="text-sm">rsd</span></span>
+                                <span className="text-third font-semibold font-prata">800 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base">Buzz Cut</span>
-                                <span className="text-third font-semibold">400 <span className="text-sm">rsd</span></span>
+                                <span className="text-third font-semibold font-prata">400 <span className="text-sm">rsd</span></span>
                             </div>
                         </div>
                     </div>
@@ -45,11 +45,11 @@ function PriceSection() {
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base">Beard Styling</span>
-                                <span className="text-third font-semibold">300 <span className="text-sm">rsd</span></span>
+                                <span className="text-third font-semibold font-prata">300 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base">Beard Shave</span>
-                                <span className="text-third font-semibold">200 <span className="text-sm">rsd</span></span>
+                                <span className="text-third font-semibold font-prata">200 <span className="text-sm">rsd</span></span>
                             </div>
                         </div>
                     </div>
@@ -61,15 +61,15 @@ function PriceSection() {
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base">Eyebrow Threading</span>
-                                <span className="text-third font-semibold">200 <span className="text-sm">rsd</span></span>
+                                <span className="text-third font-semibold font-prata">200 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base">Hair Design</span>
-                                    <span className="text-third font-semibold">200 <span className="text-sm">rsd</span></span>
+                                    <span className="text-third font-semibold font-prata">200 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Overtime Service (before 9:00, after 21:00, Sunday, Holidays)</span>
-                                <span className="text-third font-semibold">300 <span className="text-sm">rsd</span></span>
+                                <span className="text-sm md:text-base">Overtime (before 9:00, after 21:00, Sunday, Holidays)</span>
+                                <span className="text-third font-semibold font-prata">300 <span className="text-sm">rsd</span></span>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,7 @@ function Header({ title, subtitle, image }) {
                 style={{ filter: 'brightness(0.7)' }}
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
-                <p className="text-lg md:text-xl animate__animated animate__fadeInDown text-third text-center w-full">
+                <p className="text-lg md:text-xl animate__animated animate__fadeInDown text-third text-center w-full mb-2">
                     {subtitle}
                 </p>
                 <h1 className="text-4xl md:text-5xl font-bold mb-4 animate__animated animate__fadeInUp text-white text-center w-full">

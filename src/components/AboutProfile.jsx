@@ -51,7 +51,7 @@ function AboutProfile() {
                     <div className="w-20 h-1 bg-prime"></div>
 
                     <p className="text-lg leading-relaxed text-second">
-                        With over 2 years of dedicated experience in mens grooming and styling,
+                        With over 4 years of dedicated experience in mens grooming and styling,
                         Ive mastered the art of precision haircuts and expert beard grooming.
                         My approach combines traditional barbering techniques with contemporary styles
                         to create looks that are both timeless and modern.
@@ -65,7 +65,7 @@ function AboutProfile() {
 
                     <div className={`flex gap-8 pt-4 ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>
                         <div>
-                            <h3 className="text-3xl font-bold text-prime">2+</h3>
+                            <h3 className="text-3xl font-bold text-prime">4+</h3>
                             <p className="text-second">Years Experience</p>
                         </div>
                         <div>
@@ -82,14 +82,14 @@ function AboutProfile() {
                                 href='https://www.instagram.com/manemuskifrizer/'
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-prime hover:text-prime/80 transition-colors"
+                                className="text-prime hover:text-prime/80 transition-colors font-prata"
                             >
                                 Follow me on Instagram
                             </a>
                         </div>
                         <a
                             href="/mywork"
-                            className="px-6 py-2 bg-prime text-white rounded hover:bg-prime/90 transition-colors"
+                            className="px-6 py-2 bg-prime text-white rounded hover:bg-prime/90 transition-colors font-prata"
                         >
                             View My Work
                         </a>

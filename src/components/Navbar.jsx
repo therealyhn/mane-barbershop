@@ -14,13 +14,13 @@ function Navbar() {
 
     return (
         <nav className="fixed top-0 left-0 w-full shadow-md z-50 bg-prime-dark">
-            <div className="flex justify-between items-center p-4 lg:justify-evenly">
-                <div>
-                    <img src={logo} alt="logo" className="w-20" />
+            <div className="flex justify-between items-center p-1 lg:justify-evenly">
+                <div className="px-4">
+                    <img src={logo} alt="logo" className="w-24" />
                 </div>
                 
                 <button 
-                    className="lg:hidden text-white"
+                    className="lg:hidden text-white px-4"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                 >
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

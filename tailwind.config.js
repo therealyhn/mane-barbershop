@@ -15,6 +15,10 @@ export default {
         'light-gray': '#dddddd',
         'bgprime': '#fcf9f5'
       },
+      fontFamily: {
+        'prata': ['Prata', 'serif'],
+        'lato': ['Lato', 'sans-serif'],
+      },
     },
   },
   plugins: [],

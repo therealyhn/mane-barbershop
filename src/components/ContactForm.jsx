@@ -11,8 +11,8 @@ function ContactForm() {
 
                     <div className="space-y-4">
                         <div>
-                            <h3 className="text-xl mb-1">Prvog Maja, 35</h3>
-                            <p className="text-xl">Smederevo, Serbia</p>
+                            <h3 className="text-xl mb-1 font-lato">Prvog Maja, 35</h3>
+                            <p className="text-xl font-lato">Smederevo, Serbia</p>
                         </div>
 
                         <div>
@@ -48,7 +48,8 @@ function ContactForm() {
 
                         <button
                             type="submit"
-                            className="bg-prime text-white px-8 py-3 rounded hover:bg-prime/90 transition-all duration-300 uppercase text-sm"
+                            className="bg-prime text-white px-8 py-3 rounded hover:bg-black transition-all duration-300 
+                            uppercase text-sm font-prata"
                         >
                             Send Message
                         </button>

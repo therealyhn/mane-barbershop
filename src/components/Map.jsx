@@ -5,7 +5,7 @@ import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import L from 'leaflet';
 
-// Add this CSS either in a separate CSS file or in your component
+
 const mapStyles = `
   .leaflet-container {
     z-index: 0 !important;
@@ -36,7 +36,7 @@ function Map() {
             <style>{mapStyles}</style>
             <div className="w-full h-[380px]">
                 <MapContainer
-                    center={[44.64278386223394, 20.915421764320598]}
+                    center={[44.64419386223394, 20.915421764320598]}
                     zoom={15}
                     scrollWheelZoom={false}
                     className="h-full w-full"
@@ -47,8 +47,10 @@ function Map() {
                     />
                     <Marker position={position}>
                         <Popup>
-                            <img src={mapMarker} alt="Map Marker" />
-                            <p>1. Maja 35, Smederevo</p>
+                            <div className="flex flex-col items-center">
+                                <img src={mapMarker} alt="Map Marker" className="w-28" />
+                                <p className="font-prata">1. Maja 35, Smederevo</p>
+                            </div>
                         </Popup>
                     </Marker>
                 </MapContainer>

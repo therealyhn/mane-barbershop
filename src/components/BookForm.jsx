@@ -71,7 +71,8 @@ function BookForm() {
 
                             <button
                                 type="submit"
-                                className="w-full bg-prime text-white py-3 rounded hover:bg-prime-dark transition-colors duration-300 uppercase"
+                                className="w-full bg-prime text-white py-3 rounded hover:bg-prime-dark transition-colors duration-300
+                                 uppercase font-prata"
                             >
                                 Book Now
                             </button>
@@ -91,7 +92,8 @@ function BookForm() {
                             href="https://www.instagram.com/manemuskifrizer/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="w-full md:w-auto bg-prime text-white py-3 px-6 rounded hover:bg-prime-dark transition-colors duration-300 uppercase text-sm"
+                            className="w-full md:w-auto bg-prime text-white py-3 px-6 rounded hover:bg-prime-dark transition-colors 
+                            duration-300 uppercase text-sm font-prata"
                         >
                             Visit Instagram
                         </a>

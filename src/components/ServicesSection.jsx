@@ -41,11 +41,11 @@ const ServicesSection = () => {
             
             {/* Header Section */}
             <div className="flex flex-col items-center justify-center mb-8 md:mb-16 w-full">
-                <h2 className={`text-sm md:text-md font-semibold text-prime text-center mb-3 md:mb-4 ${
+                <h2 className={`text-sm md:text-md font-semibold font-prata text-prime text-center mb-3 md:mb-4 ${
                     isVisible ? 'animate__animated animate__fadeInUp' : 'opacity-0'
                 }`}>Experience Premium Grooming</h2>
                 <div className="flex flex-col items-center justify-center gap-3 md:gap-4">
-                    <span className={`text-2xl md:text-4xl font-semibold text-black text-center ${
+                    <span className={`text-2xl md:text-4xl font-semibold font-prata text-black text-center ${
                         isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'
                     }`}>Our Barber Services</span>
                     <img src={mustach} alt="mustach" className={`w-32 md:w-50 ${
@@ -62,7 +62,7 @@ const ServicesSection = () => {
                 }`}>
                     <img src={service1} alt="service1" className="w-48 md:w-2/3 h-48 md:h-auto object-cover rounded-full 
                         transition-all duration-300 hover:shadow-lg hover:grayscale" />
-                    <h3 className="mt-4 text-lg md:text-xl font-semibold">Hair Services</h3>
+                    <h3 className="mt-4 text-lg md:text-xl font-semibold font-lato">Hair Services</h3>
                     <p className="text-second text-center text-sm md:text-base mt-2">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, sunt!
                     </p>
@@ -74,7 +74,7 @@ const ServicesSection = () => {
                 }`}>
                     <img src={service3} alt="service2" className="w-48 md:w-2/3 h-48 md:h-auto object-cover rounded-full 
                         transition-all duration-300 hover:shadow-lg hover:grayscale" />
-                    <h3 className="mt-4 text-lg md:text-xl font-semibold">Beard Services</h3>
+                    <h3 className="mt-4 text-lg md:text-xl font-semibold font-lato">Beard Services</h3>
                     <p className="text-second text-center text-sm md:text-base mt-2">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, sunt!
                     </p>
@@ -86,7 +86,7 @@ const ServicesSection = () => {
                 }`}>
                     <img src={service2} alt="service3" className="w-48 md:w-2/3 h-48 md:h-auto object-cover rounded-full 
                         transition-all duration-300 hover:shadow-lg hover:grayscale" />
-                    <h3 className="mt-4 text-lg md:text-xl font-semibold">Eyebrows & Design</h3>
+                    <h3 className="mt-4 text-lg md:text-xl font-semibold font-lato">Eyebrows & Design</h3>
                     <p className="text-second text-center text-sm md:text-base mt-2">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, sunt!
                     </p>

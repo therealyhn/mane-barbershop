@@ -57,10 +57,10 @@ const ServicesSection = () => {
 
             {/* Header Section */}
             <div className="flex flex-col items-center justify-center mb-6 md:mb-16 w-full">
-                <h2 className={`text-xs sm:text-sm md:text-md font-semibold text-prime text-center mb-2 md:mb-4 ${isVisible ? 'animate__animated animate__fadeInUp' : 'opacity-0'
+                <h2 className={`font-prata text-xs sm:text-sm md:text-md font-semibold text-prime text-center mb-2 md:mb-4 ${isVisible ? 'animate__animated animate__fadeInUp' : 'opacity-0'
                     }`}>Experience Premium Grooming</h2>
                 <div className="flex flex-col items-center justify-center gap-2 md:gap-4">
-                    <span className={`text-xl sm:text-2xl md:text-4xl font-semibold text-black text-center ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'
+                    <span className={`font-prata text-xl sm:text-2xl md:text-4xl font-semibold text-black text-center ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'
                         }`}>Our Barber Services</span>
                     <img src={mustach} alt="mustach" className={`w-24 sm:w-32 md:w-50 ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'
                         }`} />
@@ -78,7 +78,7 @@ const ServicesSection = () => {
                             className="w-28 sm:w-36 md:w-40 lg:w-48 h-28 sm:h-36 md:h-40 lg:h-48 object-cover rounded-full 
                                 transition-all duration-300 hover:shadow-lg hover:grayscale"
                         />
-                        <h3 className="mt-2 md:mt-4 text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-center">{service.title}</h3>
+                        <h3 className="mt-2 md:mt-4 text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-center font-lato">{service.title}</h3>
                     </div>
                 ))}
             </div>
