@@ -10,11 +10,12 @@ function BookForm() {
 
     const services = {
         klasik: { price: 700, time: 30 },
-        fade: { price: 800, time: 45 },
-        nularica: { price: 400, time: 20 },
+        fade: { price: 800, time: 30 },
+        nularica: { price: 400, time: 15 },
         brada: { price: 300, time: 15 },
         obrve: { price: 200, time: 10 },
-        dizajn: { price: 200, time: 15 }
+        dizajn: { price: 200, time: 10 }
+        // 'pranje kose': { price: 200, time: 5 }
     };
 
     const handleServiceChange = (event) => {
