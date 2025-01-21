@@ -40,22 +40,22 @@ function BookForm() {
     const onSubmit = async (event) => {
         event.preventDefault();
         setResult("Sending....");
-    
+
         const formData = new FormData(event.target);
-    
+
         formData.append("access_key", "3df84bb9-73e9-46d2-a33c-88a0b158ba26");
-        formData.append("name", event.target.name.value); 
+        formData.append("name", event.target.name.value);
         formData.append("phone", event.target.phone.value);
         formData.append("services", selectedServices.join(", "));
-    
+
         try {
             const response = await fetch("https://api.web3forms.com/submit", {
                 method: "POST",
                 body: formData,
             });
-    
+
             const data = await response.json();
-    
+
             if (data.success) {
                 setShowConfirmation(true);
                 setResult(""); // Clear result message
@@ -69,7 +69,7 @@ function BookForm() {
             setResult("Došlo je do greške pri slanju forme.");
         }
     };
-    
+
 
     const handleCloseConfirmation = () => {
         setShowConfirmation(false);
@@ -87,7 +87,7 @@ function BookForm() {
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                                 <div>
-                                    <label htmlFor="name" className="block text-white text-sm font-bold mb-1">
+                                    <label htmlFor="name" className="block text-white text-sm md:text-lg font-bold mb-1">
                                         Ime
                                     </label>
                                     <input
@@ -101,7 +101,7 @@ function BookForm() {
                                 </div>
 
                                 <div>
-                                    <label htmlFor="phone" className="block text-white text-sm font-bold mb-1">
+                                    <label htmlFor="phone" className="block text-white text-sm md:text-lg font-bold mb-1">
                                         Broj Telefona
                                     </label>
                                     <input
@@ -116,10 +116,10 @@ function BookForm() {
                             </div>
 
                             <div className="mb-4">
-                                <label className="block text-white text-sm font-bold mb-2">
+                                <label className="block text-white text-sm md:text-lg font-bold mb-2">
                                     Usluge
                                 </label>
-                                <div className="grid grid-cols-2 gap-2">
+                                <div className="grid grid-cols-3 gap-2">
                                     {Object.keys(services).map((service) => (
                                         <div key={service} className="flex items-center">
                                             <input
@@ -133,9 +133,9 @@ function BookForm() {
                                                 htmlFor={service}
                                                 className="peer-checked:bg-third peer-checked:text-black peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-prime 
                                             transition-all flex items-center justify-center w-full py-2 px-4 bg-transparent
-                                            border border-light-gray rounded hover:bg-prime hover:text-white cursor-pointer uppercase text-sm text-white"
+                                            border border-light-gray rounded hover:bg-prime hover:text-white cursor-pointer capitalize text-sm text-white"
                                             >
-                                                {service.charAt(0).toUpperCase() + service.slice(1).replace("-", " & ")}
+                                                {service.charAt(0).toUpperCase() + service.slice(1)}
                                             </label>
                                         </div>
                                     ))}
@@ -143,7 +143,7 @@ function BookForm() {
                             </div>
 
                             <div className="mb-4">
-                                <label htmlFor="date" className="block text-white text-sm font-bold mb-2">
+                                <label htmlFor="date" className="block text-white text-sm md:text-lg font-bold mb-2">
                                     Datum
                                 </label>
                                 <input
@@ -158,7 +158,7 @@ function BookForm() {
                             </div>
 
                             <div className="mb-6">
-                                <label htmlFor="time" className="block text-white text-sm font-bold mb-2">
+                                <label htmlFor="time" className="block text-white text-sm md:text-lg font-bold mb-2">
                                     Vreme
                                 </label>
                                 <input
@@ -182,9 +182,8 @@ function BookForm() {
                         <span className="text-white text-sm mt-2">{result}</span>
                     </div>
 
-                    {/* OR Section */}
                     <div className="w-full md:w-1/5 flex flex-col items-center justify-center my-6 md:my-0">
-                        <span className="text-2xl md:text-4xl font-bold text-white">ILI</span>
+                        <span className="text-2xl md:text-4xl font-bold text-white">ili</span>
                     </div>
 
                     {/* Instagram Section */}
