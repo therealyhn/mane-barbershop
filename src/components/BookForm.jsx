@@ -39,26 +39,36 @@ function BookForm() {
     const onSubmit = async (event) => {
         event.preventDefault();
         setResult("Sending....");
+    
         const formData = new FormData(event.target);
-
-        formData.append("access_key", "3df84bb9-73e9-46d2-a33c-88a0b158ba26"); // Web3Forms API ključ
-
-        const response = await fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            body: formData
-        });
-
-        const data = await response.json();
-
-        if (data.success) {
-            setShowConfirmation(true);
-            setResult(""); // Clear result message
-            event.target.reset();
-        } else {
-            console.log("Error", data);
-            setResult(data.message);
+    
+        formData.append("access_key", "3df84bb9-73e9-46d2-a33c-88a0b158ba26");
+        formData.append("name", event.target.name.value); 
+        formData.append("phone", event.target.phone.value);
+        formData.append("services", selectedServices.join(", "));
+    
+        try {
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData,
+            });
+    
+            const data = await response.json();
+    
+            if (data.success) {
+                setShowConfirmation(true);
+                setResult(""); // Clear result message
+                event.target.reset(); // Resetuj formu
+            } else {
+                console.log("Error", data);
+                setResult(data.message);
+            }
+        } catch (error) {
+            console.error("Error submitting form:", error);
+            setResult("Došlo je do greške pri slanju forme.");
         }
     };
+    
 
     const handleCloseConfirmation = () => {
         setShowConfirmation(false);
@@ -82,6 +92,7 @@ function BookForm() {
                                     <input
                                         type="text"
                                         id="name"
+                                        name="name"
                                         className="w-full px-3 py-2 border border-light-gray rounded focus:outline-none focus:border-prime text-sm"
                                         placeholder="Vaše ime"
                                         required
@@ -95,6 +106,7 @@ function BookForm() {
                                     <input
                                         type="tel"
                                         id="phone"
+                                        name="phone"
                                         className="w-full px-3 py-2 border border-light-gray rounded focus:outline-none focus:border-prime text-sm"
                                         placeholder="Vaš broj telefona"
                                         required
