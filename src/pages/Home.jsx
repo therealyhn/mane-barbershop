@@ -30,7 +30,7 @@ function Home() {
     return (
     <div className="w-full">
         <Helmet>
-            <title>Welcome to Mane&apos;s Barbershop</title>
+            <title>Dobrodošli - Mane&apos;s Barbershop</title>
         </Helmet>
         <Navbar />
         <Carousel />

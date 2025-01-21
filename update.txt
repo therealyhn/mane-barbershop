@@ -1,0 +1,8 @@
+CAROUSEL
+Client needs to send pictures for carousel 2 & 3
+
+SERVICES SECTION
+Client needs to send picture for Hair Design section
+
+SERVICES
+Client needs to send pictures for all services

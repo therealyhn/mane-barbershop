@@ -31,12 +31,12 @@ function About() {
     return (
         <div className="w-full">
             <Helmet>
-                <title>About Me - Mane&apos;s Barbershop</title>
+                <title>O meni - Mane&apos;s Barbershop</title>
             </Helmet>
             <Navbar />
             <Header 
-                title="About Me" 
-                subtitle="Professional Grooming Services for the Modern Gentleman"
+                title="O meni" 
+                subtitle="Profesionalne usluge nege za modernog džentlmena"
                 image={servicesHeaderImg}
             />
             <AboutSection />

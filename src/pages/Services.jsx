@@ -32,12 +32,12 @@ function Services() {
     return (
         <div className="w-full">
             <Helmet>
-                <title>Our Services - Mane&apos;s Barbershop</title>
+                <title>Usluge - Mane&apos;s Barbershop</title>
             </Helmet>
             <Navbar />
             <Header 
-                title="Our Services" 
-                subtitle="Professional Grooming Services for the Modern Gentleman"
+                title="Usluge" 
+                subtitle="Profesionalne usluge nege za modernog džentlmena"
                 image={servicesHeaderImg}
             />
             <AllServices />

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import 'animate.css'
-import profileImg from '../assets/profile.png'
+import profileImg from '../assets/profile.jpg'
 
 function AboutProfile() {
     const [isVisible, setIsVisible] = useState(false);
@@ -46,31 +46,30 @@ function AboutProfile() {
                 </div>
 
                 <div className={`lg:flex-1 space-y-6 ${isVisible ? 'animate__animated animate__fadeInRight' : 'opacity-0'}`}>
-                    <h2 className="text-4xl font-bold">Professional Excellence in Barbering</h2>
+                    <h2 className="text-4xl font-bold uppercase">Profesionalna izvrsnost u frizerstvu</h2>
 
                     <div className="w-20 h-1 bg-prime"></div>
 
                     <p className="text-lg leading-relaxed text-second">
-                        With over 4 years of dedicated experience in mens grooming and styling,
-                        Ive mastered the art of precision haircuts and expert beard grooming.
-                        My approach combines traditional barbering techniques with contemporary styles
-                        to create looks that are both timeless and modern.
+                        Sa više od 4 godine posvećenog iskustva u muškom friziranju i stilizovanju, ovladao sam veštinom preciznih frizura i stručnog oblikovanja brade.
+                        Moj pristup kombinuje tradicionalne frizerske tehnike sa savremenim stilovima,
+                        stvarajući izgled koji je i bezvremenski i moderan.
                     </p>
 
                     <p className="text-lg leading-relaxed text-second">
-                        Every client receives personalized attention and custom-tailored services
-                        in our welcoming, professional atmosphere. My commitment is to ensure you
-                        not only look exceptional but feel confident in your appearance.
+                        Svaki klijent prima personalizovanu pažnju i usluge prilagođene njegovim potrebama
+                        u našem prijatnom i profesionalnom ambijentu.
+                        Moja posvećenost je da osiguram da ne samo da izgledate izuzetno, već da se osećate samouvereno u svom izgledu.
                     </p>
 
                     <div className={`flex gap-8 pt-4 ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>
                         <div>
                             <h3 className="text-3xl font-bold text-prime">4+</h3>
-                            <p className="text-second">Years Experience</p>
+                            <p className="text-second">Godina iskustva</p>
                         </div>
                         <div>
-                            <h3 className="text-3xl font-bold text-prime">100+</h3>
-                            <p className="text-second">Happy Clients</p>
+                            <h3 className="text-3xl font-bold text-prime">300+</h3>
+                            <p className="text-second">Zadovoljnih Klijenata</p>
                         </div>
                     </div>
                     <div className={`flex items-center gap-4 pt-6 ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>
@@ -84,14 +83,15 @@ function AboutProfile() {
                                 rel="noopener noreferrer"
                                 className="text-prime hover:text-prime/80 transition-colors font-prata"
                             >
-                                Follow me on Instagram
+                                Pratite me na Instagramu
                             </a>
                         </div>
                         <a
                             href="/mywork"
-                            className="px-6 py-2 bg-prime text-white rounded hover:bg-prime/90 transition-colors font-prata"
+                            className="px-6 py-2 bg-prime text-white rounded hover:bg-prime/90 transition-colors font-prata
+                            text-center"
                         >
-                            View My Work
+                            Pogledajte Moje Radove
                         </a>
                     </div>
                 </div>

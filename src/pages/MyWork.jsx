@@ -30,12 +30,12 @@ function MyWork() {
     return (
         <div className="w-full">
             <Helmet>
-                <title>My Work - Mane&apos;s Barbershop</title>
+                <title>Moji Radovi - Mane&apos;s Barbershop</title>
             </Helmet>
             <Navbar />
             <Header
-                title="My Work"
-                subtitle="Professional Grooming Services for the Modern Gentleman"
+                title="Moji Radovi"
+                subtitle="Profesionalne usluge nege za modernog džentlmena"
                 image={servicesHeaderImg}
             />
             <WorkGallery />

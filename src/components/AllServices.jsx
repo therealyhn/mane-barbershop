@@ -41,14 +41,14 @@ const ServicesSection = () => {
     }, []);
 
     const services = [
-        { image: service1, title: "Classic Haircut", animation: "fadeInLeft" },
-        { image: service4, title: "Fade Haircut", animation: "fadeInUp" },
-        { image: service5, title: "Buzz Cut", animation: "fadeInRight" },
-        { image: service3, title: "Beard Styling", animation: "fadeInLeft" },
-        { image: service6, title: "Beard Shave", animation: "fadeInUp" },
-        { image: service7, title: "Eyebrow Threading", animation: "fadeInRight" },
-        { image: service8, title: "Hair Design", animation: "fadeInLeft" },
-        { image: logo, title: "Overtime Service", animation: "fadeInUp" }
+        { image: service1, title: "Klasik", animation: "fadeInLeft" },
+        { image: service4, title: "Fade", animation: "fadeInUp" },
+        { image: service5, title: "Nularica", animation: "fadeInRight" },
+        { image: service3, title: "Brada", animation: "fadeInLeft" },
+        { image: service6, title: "Brada na 0", animation: "fadeInUp" },
+        { image: service7, title: "Obrve", animation: "fadeInRight" },
+        { image: service8, title: "Dizajn", animation: "fadeInLeft" },
+        { image: logo, title: "Prekovremeni rad", animation: "fadeInUp" }
     ];
 
     return (
@@ -58,10 +58,10 @@ const ServicesSection = () => {
             {/* Header Section */}
             <div className="flex flex-col items-center justify-center mb-6 md:mb-16 w-full">
                 <h2 className={`font-prata text-xs sm:text-sm md:text-md font-semibold text-prime text-center mb-2 md:mb-4 ${isVisible ? 'animate__animated animate__fadeInUp' : 'opacity-0'
-                    }`}>Experience Premium Grooming</h2>
+                    }`}>Iskusite vrhunsko sređivanje</h2>
                 <div className="flex flex-col items-center justify-center gap-2 md:gap-4">
                     <span className={`font-prata text-xl sm:text-2xl md:text-4xl font-semibold text-black text-center ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'
-                        }`}>Our Barber Services</span>
+                        }`}>Moje usluge</span>
                     <img src={mustach} alt="mustach" className={`w-24 sm:w-32 md:w-50 ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'
                         }`} />
                 </div>

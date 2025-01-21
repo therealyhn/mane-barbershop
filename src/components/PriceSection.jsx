@@ -7,11 +7,11 @@ function PriceSection() {
                 flex flex-col items-center justify-center">
                 <div className="flex flex-col items-center justify-center mb-8 md:mb-16 w-full">
                     <h2 className="text-sm md:text-md font-semibold text-prime text-center mb-3 md:mb-4">
-                        Experience Premium Grooming
+                        Iskusite vrhunsko sređivanje
                     </h2>
                     <div className="flex flex-col items-center justify-center gap-3 md:gap-4">
                         <span className="text-2xl md:text-4xl font-semibold text-black text-center">
-                            Our Barber Prices
+                            Cenovnik
                         </span>
                         <img src={mustach} alt="mustach" className="w-32 md:w-50" />
                     </div>
@@ -21,18 +21,18 @@ function PriceSection() {
                     {/* Hair Services */}
                     <div className="flex flex-col">
                         <h3 className="text-xl md:text-2xl font-semibold mb-4 text-center
-                         bg-prime text-white p-2 rounded-lg">Hair Services</h3>
+                         bg-prime text-white p-2 rounded-lg">Šišanje</h3>
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Classic Haircut</span>
+                                <span className="text-sm md:text-base">Klasik</span>
                                 <span className="text-third font-semibold font-prata">700 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Fade Haircut</span>
+                                <span className="text-sm md:text-base">Fade</span>
                                 <span className="text-third font-semibold font-prata">800 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Buzz Cut</span>
+                                <span className="text-sm md:text-base">Nularica</span>
                                 <span className="text-third font-semibold font-prata">400 <span className="text-sm">rsd</span></span>
                             </div>
                         </div>
@@ -41,14 +41,14 @@ function PriceSection() {
                     {/* Beard Services */}
                     <div className="flex flex-col">
                         <h3 className="text-xl md:text-2xl font-semibold mb-4 text-center 
-                        bg-prime text-white p-2 rounded-lg">Beard Services</h3>
+                        bg-prime text-white p-2 rounded-lg">Brada</h3>
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Beard Styling</span>
+                                <span className="text-sm md:text-base">Brada Skracivanje</span>
                                 <span className="text-third font-semibold font-prata">300 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Beard Shave</span>
+                                <span className="text-sm md:text-base">Brada na 0</span>
                                 <span className="text-third font-semibold font-prata">200 <span className="text-sm">rsd</span></span>
                             </div>
                         </div>
@@ -57,18 +57,18 @@ function PriceSection() {
                     {/* Other Services */}
                     <div className="flex flex-col">
                         <h3 className="text-xl md:text-2xl font-semibold mb-4 text-center
-                        bg-prime text-white p-2 rounded-lg">Other Services</h3>
+                        bg-prime text-white p-2 rounded-lg">Ostale usluge</h3>
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Eyebrow Threading</span>
+                                <span className="text-sm md:text-base">Obrve</span>
                                 <span className="text-third font-semibold font-prata">200 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Hair Design</span>
-                                    <span className="text-third font-semibold font-prata">200 <span className="text-sm">rsd</span></span>
+                                <span className="text-sm md:text-base">Dizajn</span>
+                                <span className="text-third font-semibold font-prata">200 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Overtime (before 9:00, after 21:00, Sunday, Holidays)</span>
+                                <span className="text-sm md:text-base">Prekovremeno <br /> (pre 9:00, posle 21:00, Nedelja, Praznici)</span>
                                 <span className="text-third font-semibold font-prata">300 <span className="text-sm">rsd</span></span>
                             </div>
                         </div>

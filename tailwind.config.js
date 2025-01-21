@@ -6,14 +6,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'prime-dark': '#222227',
-        'second-dark': '#303133',
-        'third-dark': '#333333',
-        'prime': '#9e8a78',
-        'second': '#777777',
-        'third': '#999999',
-        'light-gray': '#dddddd',
-        'bgprime': '#fcf9f5'
+        'prime-dark': '#221B24',
+        'second-dark': '#2E2431',
+        'third-dark': '#332940',
+        'prime': '#7D3C98',
+        'second': '#9A79B1',
+        'third': '#BCA2D5',
+        'light-gray': '#E2DCEC',
+        'bgprime': '#FAF6FC'
       },
       fontFamily: {
         'prata': ['Prata', 'serif'],

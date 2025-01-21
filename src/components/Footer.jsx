@@ -1,6 +1,6 @@
 import logo from '../assets/logo.png'
 import instagram from '../assets/instagram.png'
-import facebook from '../assets/facebook.png'
+import tiktok from '../assets/tiktok.png'
 
 function Footer() {
     return (
@@ -13,36 +13,43 @@ function Footer() {
 
                 {/* Contact Information */}
                 <div className="flex flex-col items-center md:items-start gap-4">
-                    <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left">Contact Us</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left">Kontakt</h3>
                     <div className="flex flex-col gap-2 space-y-4 text-center md:text-left">
-                        <p className="text-sm">Lorem ipsum dolor sit amet.</p>
-                        <p className="text-sm">manebarbershop@gmail.com</p>
+                        <p className="text-sm">Prvog Maja 37, Kovačićevo</p>
+                        <p className="text-sm">manesbarbershop@gmail.com</p>
                         <p className="text-sm">+381 64 123 4567</p>
                     </div>
                 </div>
 
                 {/* Opening Hours */}
                 <div className="flex flex-col items-center md:items-start gap-4">
-                    <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left">Opening Hours</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left">Radno Vreme</h3>
                     <div className="flex flex-col gap-2 space-y-4 text-center md:text-left">
-                        <p className="text-sm">Monday - Saturday: 9:00 - 21:00</p>
-                        <p className="text-sm">Sunday: Closed</p>
-                        <p className="text-sm">Holidays: Closed</p>
+                        <p className="text-sm">Ponedeljak - Subota: 9:00 - 21:00</p>
+                        <p className="text-sm">Nedelja: Zatvoreno (Prekovremeno)</p>
+                        <p className="text-sm">Praznici: Zatvoreno (Prekovremeno)</p>
                     </div>
                 </div>
             </div>
-            
-            <div className="flex gap-4 justify-center mt-8">
-                <div className="flex gap-2 cursor-pointer hover:text-prime transition-colors"
-                    onClick={() => window.open('https://www.instagram.com/manemuskifrizer/', '_blank')}>
-                    <img src={instagram} alt="instagram" className="w-6 h-6" />
+
+            <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-8">
+                {/* Instagram Link */}
+                <div
+                    className="flex items-center gap-2 cursor-pointer hover:text-prime transition-colors"
+                    onClick={() => window.open('https://www.instagram.com/manemuskifrizer/', '_blank')}
+                >
+                    <img src={instagram} alt="Instagram" className="w-6 h-6" />
                     <span className="text-sm">/manemuskifrizer</span>
                 </div>
-                <div className="flex items-center gap-2 cursor-pointer hover:text-prime transition-colors">
-                    <img src={facebook} alt="facebook" className="w-6 h-6" />
-                    <span className="text-sm">/manebarbershop</span>
+
+                {/* TikTok Link */}
+                <div className="flex items-center gap-2 cursor-pointer hover:text-prime transition-colors"
+                    onClick={() => window.open('https://www.tiktok.com/@manemuskifrizer', '_blank')} >  
+                    <img src={tiktok} alt="TikTok" className="w-6 h-6" />
+                    <span className="text-sm">@manemuskifrizer</span>
                 </div>
             </div>
+
 
             <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-gray-700 grid grid-cols-1 md:grid-cols-2 gap-4 text-center md:text-left">
                 <p className="text-sm text-light-gray">

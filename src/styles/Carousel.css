@@ -1,9 +1,10 @@
 .swiper-pagination-bullet {
-    background-color: #dddddd !important; /* light-gray for inactive dots */
+    background-color: #E2DCEC !important; /* light-gray with a subtle purple tint for inactive dots */
     opacity: 0.5;
-}
-
-.swiper-pagination-bullet-active {
-    background-color: #9e8a78 !important; /* prime color for active dot */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #7D3C98 !important; /* prime color for active dot */
     opacity: 1;
-} 
+  }
+  

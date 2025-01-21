@@ -1,8 +1,9 @@
 import BookForm from "../components/BookForm"
-import ServicesSection from "../components/ServicesSection"
 import Footer from "../components/Footer"
+import ServicesSection from "../components/ServicesSection"
 import Header from "../components/Header"
 import Navbar from "../components/Navbar"
+import PriceSection from "../components/PriceSection"
 import servicesHeaderImg from "../assets/page-header.jpg"
 import { useState, useEffect } from 'react'
 import Loader from "../components/Loader"
@@ -31,16 +32,17 @@ function Appointment() {
     return (
         <div className="w-full">
             <Helmet>
-                <title>Make an Appointment - Mane&apos;s Barbershop</title>
+                <title>Zakazivanje - Mane&apos;s Barbershop</title>
             </Helmet>
             <Navbar />
             <Header 
-                title="Make an Appointment" 
-                subtitle="Professional Grooming Services for the Modern Gentleman"
+                title="Zakazivanje" 
+                subtitle="Profesionalne usluge nege za modernog džentlmena"
                 image={servicesHeaderImg}
             />
-            <ServicesSection />
+            <PriceSection />
             <BookForm />
+            <ServicesSection />
             <Footer />
         </div>
     )

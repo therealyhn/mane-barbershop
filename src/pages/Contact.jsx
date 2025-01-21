@@ -29,7 +29,7 @@ function Contact() {
     return (
         <div className="w-full">
             <Helmet>
-                <title>Contact Me - Mane&apos;s Barbershop</title> 
+                <title>Kontakt - Mane&apos;s Barbershop</title> 
             </Helmet>
             <Navbar />
             <Map />

@@ -35,15 +35,15 @@ function Navbar() {
                 <div className="hidden lg:flex items-center gap-8">
                     <ul className="flex gap-8 uppercase">
                         <li><Link to="/" onClick={handleNavClick} className="text-light-gray hover:text-white
-                         transition-all duration-300 text-sm font-bold">Home</Link></li>
+                         transition-all duration-300 text-sm font-bold">Početna</Link></li>
                         <li><Link to="/about" onClick={handleNavClick} className="text-light-gray hover:text-white
-                         transition-all duration-300 text-sm font-bold">About</Link></li>
+                         transition-all duration-300 text-sm font-bold">O meni</Link></li>
                         <li><Link to="/services" onClick={handleNavClick} className="text-light-gray hover:text-white
-                         transition-all duration-300 text-sm font-bold">Services</Link></li>
+                         transition-all duration-300 text-sm font-bold">Usluge</Link></li>
                         <li><Link to="/mywork" onClick={handleNavClick} className="text-light-gray hover:text-white
-                         transition-all duration-300 text-sm font-bold">My Work</Link></li>
+                         transition-all duration-300 text-sm font-bold">Moji Radovi</Link></li>
                         <li><Link to="/contact" onClick={handleNavClick} className="text-light-gray hover:text-white
-                         transition-all duration-300 text-sm font-bold">Contact</Link></li>
+                         transition-all duration-300 text-sm font-bold">Kontakt</Link></li>
                     </ul>
                     <BookButton />
                 </div>
@@ -57,15 +57,15 @@ function Navbar() {
                 >
                     <ul className="flex flex-col items-center py-4">
                         <li className="py-2"><Link to="/" onClick={handleNavClick} className="text-light-gray hover:text-white transition-all duration-300 
-                        text-sm font-bold">Home</Link></li>
+                        text-sm font-bold">Početna</Link></li>
                         <li className="py-2"><Link to="/about" onClick={handleNavClick} className="text-light-gray hover:text-white transition-all duration-300 
-                        text-sm font-bold">About</Link></li>
+                        text-sm font-bold">O meni</Link></li>
                         <li className="py-2"><Link to="/services" onClick={handleNavClick} className="text-light-gray hover:text-white transition-all duration-300 
-                        text-sm font-bold">Services</Link></li>
+                        text-sm font-bold">Usluge</Link></li>
                         <li className="py-2"><Link to="/mywork" onClick={handleNavClick} className="text-light-gray hover:text-white transition-all duration-300 
-                        text-sm font-bold">My Work</Link></li>
+                        text-sm font-bold">Moji Radovi</Link></li>
                         <li className="py-2"><Link to="/contact" onClick={handleNavClick} className="text-light-gray hover:text-white transition-all duration-300 
-                        text-sm font-bold">Contact</Link></li>
+                        text-sm font-bold">Kontakt</Link></li>
                         <li className="py-2"><BookButton /></li>
                     </ul>
                 </div>
