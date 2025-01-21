@@ -223,7 +223,7 @@ function BookForm() {
                         <p className="text-xl">Vreme trajanja termina: {calculateTotalTime()} minuta</p>
                         <p className="text-xl">Datum: {date}</p>
                         <p className="text-xl">Vreme: {time}</p>
-                        <p className="text-xl">U koliko je termin zakazan, bićete kontaktirani u što kraćem vremeskom periodu <br />
+                        <p className="text-xl">U koliko je termin popunjen, bićete kontaktirani u što kraćem vremeskom periodu <br />
                             kako bi pomerili termin.</p>
                     </div>
                 </div>
