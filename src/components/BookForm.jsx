@@ -94,7 +94,7 @@ function BookForm() {
                                         type="text"
                                         id="name"
                                         name="name"
-                                        className="w-full px-3 py-2 border border-light-gray rounded focus:outline-none focus:border-prime text-sm"
+                                        className="w-full px-3 py-2 border border-light-gray rounded focus:outline-none focus:border-prime focus:ring-2 focus:ring-purple-500 text-sm"
                                         placeholder="Vaše ime"
                                         required
                                     />
@@ -108,7 +108,7 @@ function BookForm() {
                                         type="tel"
                                         id="phone"
                                         name="phone"
-                                        className="w-full px-3 py-2 border border-light-gray rounded focus:outline-none focus:border-prime text-sm"
+                                        className="w-full px-3 py-2 border border-light-gray rounded focus:outline-none focus:border-prime focus:ring-2 focus:ring-purple-500 text-sm"
                                         placeholder="Vaš broj telefona"
                                         required
                                     />
