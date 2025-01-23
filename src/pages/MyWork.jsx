@@ -19,7 +19,7 @@ function MyWork() {
         // Fallback in case window.onload doesn't trigger
         const timer = setTimeout(() => {
             setLoading(false)
-        }, 2000) // Adjust timeout as needed
+        }, 3000)
 
         return () => clearTimeout(timer)
     }, [])
