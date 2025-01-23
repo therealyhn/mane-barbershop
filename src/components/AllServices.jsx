@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
-import service1 from '../assets/service-1.jpg'
+import service1 from '../assets/service-10.jpg'
 import service3 from '../assets/service-3.jpg'
 import service4 from '../assets/service-4.jpg'
 import service5 from '../assets/service-5.jpg'
 import service6 from '../assets/service-6.png'
 import service7 from '../assets/service-7.png'
-import service8 from '../assets/service-8.jpg'
+import service8 from '../assets/service-2.png'
 import logo from '../assets/logo2.png'
 import mustach from '../assets/heading-line.png'
 import 'animate.css'
@@ -76,7 +76,8 @@ const ServicesSection = () => {
                             src={service.image}
                             alt={`service-${index + 1}`}
                             className="w-28 sm:w-36 md:w-40 lg:w-48 h-28 sm:h-36 md:h-40 lg:h-48 object-cover rounded-full 
-                                transition-all duration-300 hover:shadow-lg hover:grayscale"
+                                transition-all duration-300 hover:shadow-lg hover:grayscale
+                                hover:drop-shadow-[0_0_5px_rgb(125,60,152)]"
                         />
                         <h3 className="mt-2 md:mt-4 text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-center font-lato">{service.title}</h3>
                     </div>

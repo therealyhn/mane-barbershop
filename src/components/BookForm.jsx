@@ -117,7 +117,7 @@ function BookForm() {
 
                             <div className="mb-4">
                                 <label className="block text-white text-sm md:text-lg font-bold mb-2">
-                                    Usluge
+                                    Izaberite uslugu/e
                                 </label>
                                 <div className="grid grid-cols-3 gap-2">
                                     {Object.keys(services).map((service) => (

@@ -13,7 +13,7 @@ function WorkGallery() {
                 {displayedImages.map((image, index) => (
                     <div
                         key={index}
-                        className="overflow-hidden group transition-all duration-300 hover:scale-105 hover:shadow-md shadow-none rounded-md"
+                        className="overflow-hidden group transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500 shadow-none rounded-md"
                     >
                         <img
                             src={image}
