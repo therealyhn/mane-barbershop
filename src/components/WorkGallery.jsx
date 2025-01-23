@@ -13,12 +13,12 @@ function WorkGallery() {
                 {displayedImages.map((image, index) => (
                     <div
                         key={index}
-                        className="overflow-hidden group transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500 shadow-none rounded-md"
+                        className="overflow-hidden group transition-all duration-300 hover:scale-105 hover:shadow-md hover:shadow-purple-500 shadow-none rounded-md"
                     >
                         <img
                             src={image}
                             alt={`Gallery ${index + 1}`}
-                            className="w-full h-[200px] md:h-[300px] object-cover filter grayscale transition-all duration-300 group-hover:grayscale-0"
+                            className="w-full h-[200px] md:h-[300px] object-cover transition-all duration-300"
                         />
                     </div>
                 ))} 
@@ -31,7 +31,7 @@ function WorkGallery() {
                         className="relative bg-prime text-white px-8 py-3 rounded-sm uppercase text-sm overflow-hidden group"
                     >
                         <span className="relative z-10 font-prata">
-                            {showAll ? 'Show Less' : 'Show More'}
+                            {showAll ? 'Prikaži manje' : 'Prikaži više  '}
                         </span>
                         <div className="absolute inset-0 bg-third-dark transform translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500"></div>
                     </button>

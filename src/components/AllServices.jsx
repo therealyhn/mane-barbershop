@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import service1 from '../assets/service-10.jpg'
+import service1 from '../assets/service-10.webp'
 import service3 from '../assets/service-3.jpg'
 import service4 from '../assets/service-4.jpg'
 import service5 from '../assets/service-5.jpg'
@@ -45,7 +45,7 @@ const ServicesSection = () => {
         { image: service4, title: "Fade", animation: "fadeInUp" },
         { image: service5, title: "Nularica", animation: "fadeInRight" },
         { image: service3, title: "Brada", animation: "fadeInLeft" },
-        { image: service6, title: "Brada na 0", animation: "fadeInUp" },
+        { image: service6, title: "Brada na #0", animation: "fadeInUp" },
         { image: service7, title: "Obrve", animation: "fadeInRight" },
         { image: service8, title: "Dizajn", animation: "fadeInLeft" },
         { image: logo, title: "Prekovremeni rad", animation: "fadeInUp" }

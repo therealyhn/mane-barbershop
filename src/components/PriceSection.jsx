@@ -44,11 +44,11 @@ function PriceSection() {
                         bg-prime text-white p-2 rounded-lg">Brada</h3>
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Brada Skracivanje</span>
+                                <span className="text-sm md:text-base">Sređivanje brade</span>
                                 <span className="text-third font-semibold font-prata">300 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base">Brada na 0</span>
+                                <span className="text-sm md:text-base">Brada na #0</span>
                                 <span className="text-third font-semibold font-prata">200 <span className="text-sm">rsd</span></span>
                             </div>
                         </div>
