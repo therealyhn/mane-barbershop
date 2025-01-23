@@ -115,11 +115,11 @@ function BookForm() {
                             </div>
                             <div className="mb-4">
                                 <label className="block text-white text-sm md:text-lg font-bold mb-2">Izaberite uslugu/e</label>
-                                <div className="grid grid-cols-3 gap-2">
+                                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                                     {Object.keys(services).map((service) => (
                                         <div key={service} className="flex items-center">
                                             <input type="checkbox" value={service} onChange={handleServiceChange} className="hidden peer" id={service} />
-                                            <label htmlFor={service} className="peer-checked:bg-third peer-checked:text-black peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-prime transition-all flex items-center justify-center w-full py-2 px-4 bg-transparent border border-light-gray rounded hover:bg-prime hover:text-white cursor-pointer capitalize text-sm text-white">
+                                            <label htmlFor={service} className="peer-checked:bg-third peer-checked:text-black peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-prime transition-all flex items-center justify-center w-full py-2 px-4 bg-transparent border border-light-gray rounded hover:bg-prime hover:text-white cursor-pointer capitalize text-xs sm:text-sm text-white">
                                                 {service.charAt(0).toUpperCase() + service.slice(1)}
                                             </label>
                                         </div>
