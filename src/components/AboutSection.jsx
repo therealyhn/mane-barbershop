@@ -48,7 +48,7 @@ function AboutSection() {
             {/* Left Side */}
             <div className="flex flex-col items-center text-center md:w-1/2">
 
-                <h2 className={`text-xl font-bold uppercase text-prime ${isVisible ? 'animate__animated animate__fadeInUp' : 'opacity-0'}`}>
+                <h2 className={`text-xl font-bold font-lato uppercase text-prime ${isVisible ? 'animate__animated animate__fadeInUp' : 'opacity-0'}`}>
                     Predstavljam
                 </h2>
 
@@ -56,7 +56,7 @@ function AboutSection() {
                     <img src={logo} alt="logo" className="w-[300px]" />
                 </div>
 
-                <p className={`text-third-dark text-base leading-relaxed max-w-xl text-center
+                <p className={`text-third-dark text-base leading-relaxed max-w-xl text-center font-prata
                      ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>
                     Dobrodošli u moj frizerski salon, gde se tradicija susreće s modernim stilom.
                     Posvećen sam pružanju vrhunske usluge šišanja i stilizovanja, prilagođene svakom klijentu.

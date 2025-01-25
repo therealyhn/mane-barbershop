@@ -31,18 +31,18 @@ function ContactForm() {
                 {/* Left side */}
                 <div className="flex-1 space-y-8">
                     <div>
-                        <h2 className="text-4xl font-bold mb-10">Kontaktirajte nas i <br />pošaljite poruku još danas!</h2>
+                        <h2 className="text-4xl font-bold mb-10 font-prata">Kontaktirajte nas i <br />pošaljite poruku još danas!</h2>
                     </div>
 
                     <div className="space-y-4">
                         <div className="mb-10">
-                            <h3 className="text-2xl mb-1 font-lato">Prvog Maja 37, Kovačićevo</h3>
-                            <p className="text-xl font-lato">Smederevo, Serbia</p>
+                            <h3 className="text-2xl mb-1 font-prata">Prvog Maja 37, Kovačićevo</h3>
+                            <p className="text-xl font-prata">Smederevo, Serbia</p>
                         </div>
 
                         <div>
-                            <p className="text-second-dark text-xl">Email: manesbarbershop@gmail.com</p>
-                            <p className="text-second-dark text-xl">Telefon: +381 12 345 6789</p>
+                            <p className="text-second-dark text-xl font-prata">Email: manesbarbershop@gmail.com</p>
+                            <p className="text-second-dark text-xl font-prata">Telefon: +381 12 345 6789</p>
                         </div>
                     </div>
                 </div>

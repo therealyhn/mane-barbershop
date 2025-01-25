@@ -15,9 +15,9 @@ function Footer() {
                 <div className="flex flex-col items-center md:items-start gap-4">
                     <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left">Kontakt</h3>
                     <div className="flex flex-col gap-2 space-y-4 text-center md:text-left">
-                        <p className="text-sm">Prvog Maja 37, Kovačićevo</p>
-                        <p className="text-sm">manesbarbershop@gmail.com</p>
-                        <p className="text-sm">+381 64 123 4567</p>
+                        <p className="text-sm font-prata">Prvog Maja 37, Kovačićevo</p>
+                        <p className="text-sm font-prata">manesbarbershop@gmail.com</p>
+                        <p className="text-sm font-prata">+381 64 123 4567</p>
                     </div>
                 </div>
 
@@ -25,9 +25,9 @@ function Footer() {
                 <div className="flex flex-col items-center md:items-start gap-4">
                     <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left">Radno Vreme</h3>
                     <div className="flex flex-col gap-2 space-y-4 text-center md:text-left">
-                        <p className="text-sm">Ponedeljak - Subota: 9:00 - 21:00</p>
-                        <p className="text-sm">Nedelja: Zatvoreno (Prekovremeno)</p>
-                        <p className="text-sm">Praznici: Zatvoreno (Prekovremeno)</p>
+                        <p className="text-sm font-prata">Ponedeljak - Subota: 9:00 - 21:00</p>
+                        <p className="text-sm font-prata">Nedelja: Zatvoreno (Prekovremeno)</p>
+                        <p className="text-sm font-prata">Praznici: Zatvoreno (Prekovremeno)</p>
                     </div>
                 </div>
             </div>
@@ -39,23 +39,23 @@ function Footer() {
                     onClick={() => window.open('https://www.instagram.com/manemuskifrizer/', '_blank')}
                 >
                     <img src={instagram} alt="Instagram" className="w-6 h-6" />
-                    <span className="text-sm">/manemuskifrizer</span>
+                    <span className="text-sm font-prata">/manemuskifrizer</span>
                 </div>
 
                 {/* TikTok Link */}
                 <div className="flex items-center gap-2 cursor-pointer hover:text-prime transition-colors"
                     onClick={() => window.open('https://www.tiktok.com/@manemuskifrizer', '_blank')} >  
                     <img src={tiktok} alt="TikTok" className="w-6 h-6" />
-                    <span className="text-sm">@manemuskifrizer</span>
+                    <span className="text-sm font-prata">@manemuskifrizer</span>
                 </div>
             </div>
 
 
             <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-gray-700 grid grid-cols-1 md:grid-cols-2 gap-4 text-center md:text-left">
-                <p className="text-sm text-light-gray">
+                <p className="text-sm text-light-gray font-lato">
                     © 2023 Mane Barbershop. All rights reserved.
                 </p>
-                <p className="text-sm text-light-gray text-center md:text-right">
+                <p className="text-sm text-light-gray text-center md:text-right font-lato">
                     Designed by <a href="https://jovanljusic.com" target="_blank" rel="noopener noreferrer"
                         className="hover:text-third text-prime underline transition-colors">Jovan Ljusic</a>
                 </p>

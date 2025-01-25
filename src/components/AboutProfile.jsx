@@ -46,17 +46,17 @@ function AboutProfile() {
                 </div>
 
                 <div className={`lg:flex-1 space-y-6 ${isVisible ? 'animate__animated animate__fadeInRight' : 'opacity-0'}`}>
-                    <h2 className="text-4xl font-bold uppercase">Profesionalna izvrsnost u frizerstvu</h2>
+                    <h2 className="text-4xl font-bold uppercase font-lato">Profesionalna izvrsnost u frizerstvu</h2>
 
                     <div className="w-20 h-1 bg-prime"></div>
 
-                    <p className="text-lg leading-relaxed text-second">
+                    <p className="text-lg leading-relaxed text-second font-prata">
                         Sa više od 4 godine posvećenog iskustva u muškom friziranju i stilizovanju, ovladao sam veštinom preciznih frizura i stručnog oblikovanja brade.
                         Moj pristup kombinuje tradicionalne frizerske tehnike sa savremenim stilovima,
                         stvarajući izgled koji je i bezvremenski i moderan.
                     </p>
 
-                    <p className="text-lg leading-relaxed text-second">
+                    <p className="text-lg leading-relaxed text-second font-prata">
                         Svaki klijent prima personalizovanu pažnju i usluge prilagođene njegovim potrebama
                         u našem prijatnom i profesionalnom ambijentu.
                         Moja posvećenost je da osiguram da ne samo da izgledate izuzetno, već da se osećate samouvereno u svom izgledu.
@@ -64,12 +64,12 @@ function AboutProfile() {
 
                     <div className={`flex gap-8 pt-4 ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>
                         <div>
-                            <h3 className="text-3xl font-bold text-prime">4+</h3>
-                            <p className="text-second">Godina iskustva</p>
+                            <h3 className="text-3xl font-bold text-prime font-lato">4+</h3>
+                            <p className="text-second font-prata">Godina iskustva</p>
                         </div>
                         <div>
-                            <h3 className="text-3xl font-bold text-prime">300+</h3>
-                            <p className="text-second">Zadovoljnih Klijenata</p>
+                            <h3 className="text-3xl font-bold text-prime font-lato">300+</h3>
+                            <p className="text-second font-prata">Zadovoljnih Klijenata</p>
                         </div>
                     </div>
                     <div className={`flex items-center gap-4 pt-6 ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>

@@ -16,8 +16,8 @@ export default {
         'bgprime': '#FAF6FC'
       },
       fontFamily: {
-        'prata': ['Prata', 'serif'],
-        'lato': ['Lato', 'sans-serif'],
+        'prata': ['Playfair Display', 'serif', 'Georgia', 'Times New Roman'],
+        'lato': ['Baskervville', 'serif', 'Georgia', 'Times New Roman'],
       },
     },
   },
