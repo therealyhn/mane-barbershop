@@ -1,5 +1,4 @@
 CAROUSEL
 Client needs to send pictures for carousel 2
 
-SERVICES
-Client needs to send pictures for 1 more service.
+Text update
