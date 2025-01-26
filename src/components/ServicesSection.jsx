@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import service1 from '../assets/service-1.jpg'
 import service2 from '../assets/service-2.png'
-import service3 from '../assets/service-3.jpg'
+import service3 from '../assets/service-3.png'
 import mustach from '../assets/heading-line.png'
 import 'animate.css'
 import ServicesButton from './ServicesButton'

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import service1 from '../assets/service-10.webp'
-import service3 from '../assets/service-3.jpg'
+import service3 from '../assets/service-3.png'
 import service4 from '../assets/service-4.jpg'
 import service5 from '../assets/service-5.jpg'
 import service6 from '../assets/service-6.png'
