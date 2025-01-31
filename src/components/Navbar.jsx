@@ -18,8 +18,8 @@ function Navbar() {
                 <div className="px-4">
                     <img src={logo} alt="logo" className="w-24" />
                 </div>
-                
-                <button 
+
+                <button
                     className="lg:hidden text-white px-4"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                 >
@@ -35,37 +35,41 @@ function Navbar() {
                 <div className="hidden lg:flex items-center gap-8">
                     <ul className="flex gap-8 uppercase">
                         <li><Link to="/" onClick={handleNavClick} className="text-light-gray hover:text-white
-                         transition-all duration-300 text-sm font-bold">Početna</Link></li>
+                         transition-all duration-300 text-sm font-semibold font-prata uppercase">Početna</Link></li>
                         <li><Link to="/about" onClick={handleNavClick} className="text-light-gray hover:text-white
-                         transition-all duration-300 text-sm font-bold">O meni</Link></li>
+                         transition-all duration-300 text-sm font-semibold font-prata uppercase">O meni</Link></li>
                         <li><Link to="/services" onClick={handleNavClick} className="text-light-gray hover:text-white
-                         transition-all duration-300 text-sm font-bold">Usluge</Link></li>
+                         transition-all duration-300 text-sm font-semibold font-prata uppercase">Usluge</Link></li>
                         <li><Link to="/mywork" onClick={handleNavClick} className="text-light-gray hover:text-white
-                         transition-all duration-300 text-sm font-bold">Moji Radovi</Link></li>
+                         transition-all duration-300 text-sm font-semibold font-prata uppercase">Moji Radovi</Link></li>
                         <li><Link to="/contact" onClick={handleNavClick} className="text-light-gray hover:text-white
-                         transition-all duration-300 text-sm font-bold">Kontakt</Link></li>
+                         transition-all duration-300 text-sm font-semibold font-prata uppercase">Kontakt</Link></li>
                     </ul>
                     <BookButton />
                 </div>
 
-                <div 
-                    className={`lg:hidden absolute top-full left-0 w-full bg-prime-dark shadow-md ${
-                        isMenuOpen 
-                            ? 'animate__animated animate__fadeInDown' 
+                <div
+                    className={`lg:hidden absolute top-full left-0 w-full bg-prime-dark shadow-md ${isMenuOpen
+                            ? 'animate__animated animate__fadeInDown'
                             : 'animate__animated animate__fadeOutUp'
-                    } ${!isMenuOpen && 'hidden'}`}
+                        } ${!isMenuOpen && 'hidden'}`}
                 >
                     <ul className="flex flex-col items-center py-4">
-                        <li className="py-2"><Link to="/" onClick={handleNavClick} className="text-light-gray hover:text-white transition-all duration-300 
-                        text-sm font-bold">Početna</Link></li>
-                        <li className="py-2"><Link to="/about" onClick={handleNavClick} className="text-light-gray hover:text-white transition-all duration-300 
-                        text-sm font-bold">O meni</Link></li>
-                        <li className="py-2"><Link to="/services" onClick={handleNavClick} className="text-light-gray hover:text-white transition-all duration-300 
-                        text-sm font-bold">Usluge</Link></li>
-                        <li className="py-2"><Link to="/mywork" onClick={handleNavClick} className="text-light-gray hover:text-white transition-all duration-300 
-                        text-sm font-bold">Moji Radovi</Link></li>
-                        <li className="py-2"><Link to="/contact" onClick={handleNavClick} className="text-light-gray hover:text-white transition-all duration-300 
-                        text-sm font-bold">Kontakt</Link></li>
+                        <li className="py-2"><Link to="/" onClick={handleNavClick}
+                            className="text-light-gray hover:text-white transition-all duration-300 
+                        text-sm font-bold font-prata uppercase">Početna</Link></li>
+                        <li className="py-2"><Link to="/about" onClick={handleNavClick}
+                            className="text-light-gray hover:text-white transition-all duration-300 
+                        text-sm font-bold font-prata uppercase">O meni</Link></li>
+                        <li className="py-2"><Link to="/services" onClick={handleNavClick}
+                            className="text-light-gray hover:text-white transition-all duration-300 
+                        text-sm font-bold font-prata uppercase">Usluge</Link></li>
+                        <li className="py-2"><Link to="/mywork" onClick={handleNavClick}
+                            className="text-light-gray hover:text-white transition-all duration-300 
+                        text-sm font-bold font-prata uppercase">Moji Radovi</Link></li>
+                        <li className="py-2"><Link to="/contact" onClick={handleNavClick}
+                            className="text-light-gray hover:text-white transition-all duration-300 
+                        text-sm font-bold font-prata uppercase">Kontakt</Link></li>
                         <li className="py-2"><BookButton /></li>
                     </ul>
                 </div>

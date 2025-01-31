@@ -57,20 +57,25 @@ const ServicesSection = () => {
 
             {/* Header Section */}
             <div className="flex flex-col items-center justify-center mb-6 md:mb-16 w-full">
-                <h2 className={`font-prata text-xs sm:text-sm md:text-md font-semibold text-prime text-center mb-2 md:mb-4 ${isVisible ? 'animate__animated animate__fadeInUp' : 'opacity-0'
+                <h2 className={`font-lato text-xs sm:text-sm md:text-md font-semibold
+                 text-prime text-center mb-2 md:mb-4 ${isVisible ? 'animate__animated animate__fadeInUp' : 'opacity-0'
                     }`}>Iskusite vrhunsko sređivanje</h2>
                 <div className="flex flex-col items-center justify-center gap-2 md:gap-4">
-                    <span className={`font-prata text-xl sm:text-2xl md:text-4xl font-semibold text-black text-center ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'
+                    <span className={`font-prata text-xl sm:text-2xl md:text-4xl font-semibold text-black text-center 
+                    ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'
                         }`}>Moje usluge</span>
-                    <img src={mustach} alt="mustach" className={`w-24 sm:w-32 md:w-50 ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'
+                    <img src={mustach} alt="mustach" className={`w-24 sm:w-32 md:w-50 
+                    ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'
                         }`} />
                 </div>
             </div>
 
             {/* Services Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 lg:gap-8 w-full max-w-7xl">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 
+            md:gap-6 lg:gap-8 w-full max-w-7xl">
                 {services.map((service, index) => (
-                    <div key={index} className={`flex flex-col items-center px-2 sm:px-4 ${isVisible ? `animate__animated animate__${service.animation} animate__delay-2s` : 'opacity-0'
+                    <div key={index} className={`flex flex-col items-center px-2 sm:px-4 
+                        ${isVisible ? `animate__animated animate__${service.animation} animate__delay-2s` : 'opacity-0'
                         }`}>
                         <img
                             src={service.image}
@@ -79,12 +84,14 @@ const ServicesSection = () => {
                                 transition-all duration-300 hover:shadow-lg hover:grayscale
                                 hover:drop-shadow-[0_0_5px_rgb(125,60,152)]"
                         />
-                        <h3 className="mt-2 md:mt-4 text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-center font-lato">{service.title}</h3>
+                        <h3 className="mt-2 md:mt-4 text-sm sm:text-base md:text-lg lg:text-xl
+                         font-semibold text-center font-prata">{service.title}</h3>
                     </div>
                 ))}
             </div>
 
-            <div className={`mt-6 sm:mt-8 md:mt-16 flex gap-4 ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-2s' : 'opacity-0'
+            <div className={`mt-6 sm:mt-8 md:mt-16 flex gap-4 
+            ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-2s' : 'opacity-0'
                 }`}>
                 <BookButton />
             </div>

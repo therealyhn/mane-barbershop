@@ -13,21 +13,21 @@ function Footer() {
 
                 {/* Contact Information */}
                 <div className="flex flex-col items-center md:items-start gap-4">
-                    <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left">Kontakt</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left font-prata">Kontakt</h3>
                     <div className="flex flex-col gap-2 space-y-4 text-center md:text-left">
-                        <p className="text-sm font-prata">Prvog Maja 37, Kovačićevo</p>
-                        <p className="text-sm font-prata">manesbarbershop@gmail.com</p>
-                        <p className="text-sm font-prata">+381 64 123 4567</p>
+                        <p className="text-sm font-lato">Prvog Maja 37, Kovačićevo</p>
+                        <p className="text-sm font-lato">manesbarbershop@gmail.com</p>
+                        <p className="text-sm font-lato">+381 64 125 04 70</p>
                     </div>
                 </div>
 
                 {/* Opening Hours */}
                 <div className="flex flex-col items-center md:items-start gap-4">
-                    <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left">Radno Vreme</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left font-prata">Radno Vreme</h3>
                     <div className="flex flex-col gap-2 space-y-4 text-center md:text-left">
-                        <p className="text-sm font-prata">Ponedeljak - Subota: 9:00 - 21:00</p>
-                        <p className="text-sm font-prata">Nedelja: Zatvoreno (Prekovremeno)</p>
-                        <p className="text-sm font-prata">Praznici: Zatvoreno (Prekovremeno)</p>
+                        <p className="text-sm font-lato">Ponedeljak - Subota: 9:00 - 21:00</p>
+                        <p className="text-sm font-lato">Nedelja: Zatvoreno (Prekovremeno)</p>
+                        <p className="text-sm font-lato">Praznici: Zatvoreno (Prekovremeno)</p>
                     </div>
                 </div>
             </div>
@@ -51,13 +51,14 @@ function Footer() {
             </div>
 
 
-            <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-gray-700 grid grid-cols-1 md:grid-cols-2 gap-4 text-center md:text-left">
-                <p className="text-sm text-light-gray font-lato">
+            <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-gray-700 grid grid-cols-1 md:grid-cols-2 
+            gap-4 text-center md:text-left">
+                <p className="text-sm text-light-gray font-prata">
                     © 2023 Mane Barbershop. All rights reserved.
                 </p>
-                <p className="text-sm text-light-gray text-center md:text-right font-lato">
+                <p className="text-sm text-light-gray text-center md:text-right font-prata">
                     Designed by <a href="https://jovanljusic.com" target="_blank" rel="noopener noreferrer"
-                        className="hover:text-third text-prime underline transition-colors">Jovan Ljusic</a>
+                        className="hover:text-third text-prime underline transition-colors font-prata">Jovan Ljusic</a>
                 </p>
             </div>
         </div>

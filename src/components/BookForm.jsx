@@ -102,24 +102,39 @@ function BookForm() {
                 <div className="flex flex-col md:flex-row bg-transparent p-4 md:p-8 rounded-lg shadow-lg w-full max-w-7xl">
                     <div className="w-full md:w-2/5 md:pr-4">
                         <form className="bg-transparent" onSubmit={onSubmit}>
-                            <h2 className="text-xl md:text-3xl font-bold text-white md:mb-6 my-2 text-center">Zakažite termin putem Emaila</h2>
+                            <h2 className="text-xl md:text-3xl font-bold text-white md:mb-6 my-2 text-center font-prata">
+                                Zakažite termin putem Emaila</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                                 <div>
-                                    <label htmlFor="name" className="block text-white text-sm md:text-lg font-bold mb-1">Ime</label>
-                                    <input type="text" id="name" name="name" className="w-full px-3 py-2 border border-light-gray rounded focus:outline-none focus:border-prime focus:ring-2 focus:ring-purple-500 text-sm" placeholder="Vaše ime" required />
+                                    <label htmlFor="name" className="block text-white text-sm md:text-lg font-bold mb-1
+                                     font-prata">Ime</label>
+                                    <input type="text" id="name" name="name" className="w-full px-3 py-2 border border-light-gray 
+                                    rounded focus:outline-none focus:border-prime 
+                                    focus:ring-2 focus:ring-purple-500 text-sm"
+                                        placeholder="Vaše ime" required />
                                 </div>
                                 <div>
-                                    <label htmlFor="phone" className="block text-white text-sm md:text-lg font-bold mb-1">Broj Telefona</label>
-                                    <input type="tel" id="phone" name="phone" className="w-full px-3 py-2 border border-light-gray rounded focus:outline-none focus:border-prime focus:ring-2 focus:ring-purple-500 text-sm" placeholder="Vaš broj telefona" required />
+                                    <label htmlFor="phone" className="block text-white text-sm md:text-lg font-bold mb-1 
+                                    font-prata">Broj Telefona</label>
+                                    <input type="tel" id="phone" name="phone" className="w-full px-3 py-2 
+                                    border border-light-gray rounded focus:outline-none
+                                     focus:border-prime focus:ring-2 focus:ring-purple-500 text-sm"
+                                        placeholder="Vaš broj telefona" required />
                                 </div>
                             </div>
                             <div className="mb-4">
-                                <label className="block text-white text-sm md:text-lg font-bold mb-2">Izaberite uslugu/e</label>
+                                <label className="block text-white text-sm md:text-lg 
+                                font-bold mb-2 font-prata">Izaberite uslugu/e</label>
                                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                                     {Object.keys(services).map((service) => (
                                         <div key={service} className="flex items-center">
-                                            <input type="checkbox" value={service} onChange={handleServiceChange} className="hidden peer" id={service} />
-                                            <label htmlFor={service} className="peer-checked:bg-third peer-checked:text-black peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-prime transition-all flex items-center justify-center w-full py-2 px-4 bg-transparent border border-light-gray rounded hover:bg-prime hover:text-white cursor-pointer capitalize text-xs sm:text-sm text-white">
+                                            <input type="checkbox" value={service} onChange={handleServiceChange}
+                                                className="hidden peer" id={service} />
+                                            <label htmlFor={service} className="peer-checked:bg-third peer-checked:text-black
+                                             peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-prime 
+                                             transition-all flex items-center justify-center w-full py-2 px-4 bg-transparent 
+                                             border border-light-gray rounded hover:bg-prime hover:text-white 
+                                             cursor-pointer capitalize text-xs sm:text-sm text-white font-prata">
                                                 {service.charAt(0).toUpperCase() + service.slice(1)}
                                             </label>
                                         </div>
@@ -127,40 +142,53 @@ function BookForm() {
                                 </div>
                             </div>
                             <div className="mb-4">
-                                <label htmlFor="date" className="block text-white text-sm md:text-lg font-bold mb-2">Datum</label>
-                                <input type="date" id="date" name="date" className="w-full px-3 py-2 border border-light-gray rounded focus:outline-none focus:border-prime text-sm" 
-                                value={date} onChange={(e) => setDate(e.target.value)} required />
+                                <label htmlFor="date" className="block text-white text-sm md:text-lg font-bold mb-2 
+                                font-prata">Datum</label>
+                                <input type="date" id="date" name="date" className="w-full px-3 py-2
+                                 border border-light-gray rounded focus:outline-none focus:border-prime text-sm"
+                                    value={date} onChange={(e) => setDate(e.target.value)} required />
                             </div>
                             <div className="mb-6">
-                                <label htmlFor="time" className="block text-white text-sm md:text-lg font-bold mb-2">Vreme</label>
-                                <input type="time" id="time" name="time" className="w-full px-3 py-2 border border-light-gray rounded focus:outline-none focus:border-prime text-sm" 
-                                value={time} onChange={(e) => setTime(e.target.value)} required />
-                                <p className="text-white text-sm mt-2">* Napomena: Za termine pre 09:00h, posle 21:00h, za rad nedeljom i praznicima, dodatna cena je 300 dinara.</p>
+                                <label htmlFor="time" className="block text-white text-sm md:text-lg font-bold mb-2 
+                                font-prata">Vreme</label>
+                                <input type="time" id="time" name="time" className="w-full px-3 py-2
+                                 border border-light-gray rounded focus:outline-none focus:border-prime text-sm"
+                                    value={time} onChange={(e) => setTime(e.target.value)} required />
+                                <p className="text-white text-sm mt-2 font-lato">
+                                    * Napomena: Za termine pre 09:00h, posle 21:00h, za rad nedeljom i praznicima,
+                                    dodatna cena je 300 dinara.</p>
                             </div>
-                            <button type="submit" className="w-full bg-prime text-white py-2 rounded uppercase hover:bg-prime-dark transition-colors duration-300 text-sm font-prata">Zakaži Termin</button>
+                            <button type="submit" className="w-full bg-prime text-white py-2 rounded 
+                            uppercase hover:bg-prime-dark transition-colors duration-300 text-sm font-prata">
+                                Zakaži Termin</button>
                         </form>
-                        <span className="text-white text-sm mt-2">{result}</span>
+                        <span className="text-white text-sm mt-2 font-prata">{result}</span>
                     </div>
                     <div className="w-full md:w-1/5 flex flex-col items-center justify-center my-6 md:my-0">
-                        <span className="text-2xl md:text-4xl font-bold text-white">ili</span>
+                        <span className="text-2xl md:text-4xl font-bold text-white font-prata">ili</span>
                     </div>
                     <div className="w-full md:w-2/5 md:pl-4 flex flex-col items-center justify-center text-center">
-                        <h2 className="text-xl md:text-3xl font-bold text-white mb-4">Instagram Profil</h2>
-                        <p className="text-white mb-4 text-sm md:text-base">Zakažite termin putem Instagram profila</p>
-                        <a href="https://www.instagram.com/manemuskifrizer/" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto bg-prime text-white py-2 px-4 mb-6 rounded hover:bg-prime-dark transition-colors duration-300 uppercase text-sm font-prata">Poseti Instagram</a>
+                        <h2 className="text-xl md:text-3xl font-bold text-white mb-4 font-prata">Instagram Profil</h2>
+                        <p className="text-white mb-4 text-sm md:text-base font-lato">Zakažite termin putem Instagram profila</p>
+                        <a href="https://www.instagram.com/manemuskifrizer/" target="_blank" rel="noopener noreferrer"
+                            className="w-full md:w-auto bg-prime text-white py-2 px-4 mb-6 rounded hover:bg-prime-dark 
+                            transition-colors duration-300 uppercase text-sm font-prata">Poseti Instagram</a>
                     </div>
                 </div>
             </div>
             {showConfirmation && selectedServices.length > 0 && (
-                <div className="fixed inset-0 bg-black/80 flex items-center justify-center text-white text-sm p-4 cursor-pointer" onClick={handleCloseConfirmation}>
+                <div className="fixed inset-0 bg-black/80 flex items-center justify-center text-white text-sm p-4 cursor-pointer"
+                    onClick={handleCloseConfirmation}>
                     <div className="text-center relative p-6 bg-prime rounded-lg">
-                        <button className="absolute top-2 right-2 text-white text-sm font-bold px-2 py-1" onClick={(e) => { e.stopPropagation(); handleCloseConfirmation(); }}>X</button>
-                        <p className="text-xl">Uspešno ste zakazali termin.</p>
-                        <p className="text-xl">Cena vašeg termina: {calculateTotalPrice()} dinara</p>
-                        <p className="text-xl">Vreme trajanja termina: {calculateTotalTime()} minuta</p>
-                        <p className="text-xl">Datum: {date}</p>
-                        <p className="text-xl">Vreme: {time}</p>
-                        <p className="text-xl">U koliko je termin popunjen, bićete kontaktirani u što kraćem vremenskom periodu kako bi pomerili termin.</p>
+                        <button className="absolute top-2 right-2 text-white text-sm font-bold px-2 py-1" 
+                        onClick={(e) => { e.stopPropagation(); handleCloseConfirmation(); }}>X</button>
+                        <p className="text-xl font-prata">Uspešno ste zakazali termin.</p>
+                        <p className="text-xl font-prata">Cena vašeg termina: {calculateTotalPrice()} dinara</p>
+                        <p className="text-xl font-prata">Vreme trajanja termina: {calculateTotalTime()} minuta</p>
+                        <p className="text-xl font-prata">Datum: {date}</p>
+                        <p className="text-xl font-prata">Vreme: {time}</p>
+                        <p className="text-xl font-prata">U koliko je termin popunjen, bićete kontaktirani u što 
+                            kraćem vremenskom periodu kako bi pomerili termin.</p>
                     </div>
                 </div>
             )}
