@@ -43,7 +43,7 @@ function ContactForm() {
 
                         <div>
                             <p className="text-second-dark text-xl font-lato">Email: manesbarbershop@gmail.com</p>
-                            <p className="text-second-dark text-xl font-lato">Telefon: +381 12 345 6789</p>
+                            <p className="text-second-dark text-xl font-lato">Telefon: +381 64 125 04 70</p>
                         </div>
                     </div>
                 </div>
