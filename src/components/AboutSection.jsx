@@ -77,15 +77,15 @@ function AboutSection() {
                     ${isVisible ? 'animate__animated animate__fadeInDown' : 'opacity-0'}`}
                 />
                 <img
-                    src={about2}
+                    src={about3}
                     alt="Barber 2"
-                    className={`absolute top-10 right-[10%] w-80 h-80 object-cover rounded-lg shadow-xl
+                    className={`absolute top-10 right-[13%] w-80 h-80 object-cover rounded-lg shadow-xl
                     ${isVisible ? 'animate__animated animate__fadeInRight animate__delay-1s' : 'opacity-0'}`}
                 />
                 <img
-                    src={about3}
+                    src={about2}
                     alt="Barber 3"
-                    className={`absolute top-40 right-[40%] w-72 h-72 object-cover rounded-lg shadow-xl
+                    className={`absolute top-40 right-[40%] w-80 h-72 object-cover rounded-lg shadow-xl
                     ${isVisible ? 'animate__animated animate__fadeInLeft animate__delay-1s' : 'opacity-0'}`}
                 />
             </div>
