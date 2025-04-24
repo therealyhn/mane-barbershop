@@ -25,17 +25,17 @@ function PriceSection() {
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base font-prata">Klasik</span>
-                                <span className="text-third font-semibold font-prata">
+                                <span className="text-second font-semibold font-prata">
                                     700 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base font-prata">Fade</span>
-                                <span className="text-third font-semibold font-prata">
+                                <span className="text-second font-semibold font-prata">
                                     800 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base font-prata">Nularica</span>
-                                <span className="text-third font-semibold font-prata">
+                                <span className="text-second font-semibold font-prata">
                                     400 <span className="text-sm">rsd</span></span>
                             </div>
                         </div>
@@ -48,12 +48,12 @@ function PriceSection() {
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base font-prata">Sređivanje brade</span>
-                                <span className="text-third font-semibold font-prata">
+                                <span className="text-second font-semibold font-prata">
                                     300 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base font-prata">Brada na #0</span>
-                                <span className="text-third font-semibold font-prata">
+                                <span className="text-second font-semibold font-prata">
                                     200 <span className="text-sm">rsd</span></span>
                             </div>
                         </div>
@@ -66,18 +66,18 @@ function PriceSection() {
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base font-prata">Obrve</span>
-                                <span className="text-third font-semibold font-prata">
+                                <span className="text-second font-semibold font-prata">
                                     200 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base font-prata">Dizajn</span>
-                                <span className="text-third font-semibold font-prata">
+                                <span className="text-second font-semibold font-prata">
                                     200 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base font-prata">
                                     Prekovremeno <br /> (pre 9:00, posle 21:00, Nedelja, Praznici)</span>
-                                <span className="text-third font-semibold font-prata">
+                                <span className="text-second font-semibold font-prata">
                                     300 <span className="text-sm">rsd</span></span>
                             </div>
                         </div>

@@ -6,14 +6,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'prime-dark': '#221B24',
-        'second-dark': '#2E2431',
-        'third-dark': '#332940',
-        'prime': '#7D3C98',
-        'second': '#9A79B1',
-        'third': '#BCA2D5',
-        'light-gray': '#E2DCEC',
-        'bgprime': '#FAF6FC'
+        'prime-dark': '#1A1A1A', // Very dark gray
+        'second-dark': '#292929', // Dark gray
+        'third-dark': '#333333', // Medium gray
+        'prime': '#4D4D4D', // Lighter gray
+        'second': '#B3B3B3', // Light gray
+        'third': '#E6E6E6', // Very light gray
+        'light-gray': '#F2F2F2', // Near white
+        'bgprime': '#FFFFFF' // White
       },
       fontFamily: {
         'prata': ['Poppins', 'serif', 'Georgia', 'Times New Roman'],

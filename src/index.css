@@ -9,22 +9,22 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #221B24; /* Matches 'prime-dark' */
+  background: #1A1A1A; /* Matches 'prime-dark' */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #7D3C98; /* Matches 'prime' */
+  background: #4D4D4D; /* Matches 'prime' */
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #9A79B1; /* Matches 'second' */
+  background: #B3B3B3; /* Matches 'second' */
 }
 
 /* For Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #7D3C98 #221B24; /* Thumb color matches 'prime', track matches 'prime-dark' */
+  scrollbar-color: #4D4D4D #1A1A1A; /* Thumb color matches 'prime', track matches 'prime-dark' */
 }
 
 #loader-wrapper {

@@ -82,7 +82,7 @@ const ServicesSection = () => {
                             alt={`service-${index + 1}`}
                             className="w-28 sm:w-36 md:w-40 lg:w-48 h-28 sm:h-36 md:h-40 lg:h-48 object-cover rounded-full 
                                 transition-all duration-300 hover:shadow-lg hover:grayscale
-                                hover:drop-shadow-[0_0_5px_rgb(125,60,152)]"
+                                hover:drop-shadow-[0_0_5px_rgb(0,0,0)]"
                         />
                         <h3 className="mt-2 md:mt-4 text-sm sm:text-base md:text-lg lg:text-xl
                          font-semibold text-center font-prata">{service.title}</h3>
