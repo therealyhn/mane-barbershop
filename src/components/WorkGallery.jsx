@@ -12,7 +12,7 @@ function WorkGallery() {
                     <div
                         key={index}
                         className="overflow-hidden group transition-all duration-300 
-                        hover:scale-105 hover:shadow-md hover:shadow-purple-500 shadow-none rounded-md"
+                        hover:scale-105 hover:shadow-md hover:shadow-gray-700 shadow-none rounded-md"
                     >
                         <img
                             src={image}

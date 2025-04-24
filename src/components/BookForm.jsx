@@ -110,7 +110,7 @@ function BookForm() {
                                      font-prata">Ime</label>
                                     <input type="text" id="name" name="name" className="w-full px-3 py-2 border border-light-gray 
                                     rounded focus:outline-none focus:border-prime 
-                                    focus:ring-2 focus:ring-purple-500 text-sm"
+                                    focus:ring-2 focus:ring-gray-300 text-sm"
                                         placeholder="Vaše ime" required />
                                 </div>
                                 <div>
@@ -118,7 +118,7 @@ function BookForm() {
                                     font-prata">Broj Telefona</label>
                                     <input type="tel" id="phone" name="phone" className="w-full px-3 py-2 
                                     border border-light-gray rounded focus:outline-none
-                                     focus:border-prime focus:ring-2 focus:ring-purple-500 text-sm"
+                                     focus:border-prime focus:ring-2 focus:ring-gray-300 text-sm"
                                         placeholder="Vaš broj telefona" required />
                                 </div>
                             </div>

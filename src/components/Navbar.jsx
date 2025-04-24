@@ -34,15 +34,15 @@ function Navbar() {
 
                 <div className="hidden lg:flex items-center gap-8">
                     <ul className="flex gap-8 uppercase">
-                        <li><Link to="/" onClick={handleNavClick} className="text-light-gray hover:text-white
+                        <li><Link to="/" onClick={handleNavClick} className="text-light-gray hover:text-prime
                          transition-all duration-300 text-sm font-semibold font-prata uppercase">Početna</Link></li>
-                        <li><Link to="/about" onClick={handleNavClick} className="text-light-gray hover:text-white
+                        <li><Link to="/about" onClick={handleNavClick} className="text-light-gray hover:text-prime
                          transition-all duration-300 text-sm font-semibold font-prata uppercase">O meni</Link></li>
-                        <li><Link to="/services" onClick={handleNavClick} className="text-light-gray hover:text-white
+                        <li><Link to="/services" onClick={handleNavClick} className="text-light-gray hover:text-prime
                          transition-all duration-300 text-sm font-semibold font-prata uppercase">Usluge</Link></li>
-                        <li><Link to="/mywork" onClick={handleNavClick} className="text-light-gray hover:text-white
+                        <li><Link to="/mywork" onClick={handleNavClick} className="text-light-gray hover:text-prime
                          transition-all duration-300 text-sm font-semibold font-prata uppercase">Moji Radovi</Link></li>
-                        <li><Link to="/contact" onClick={handleNavClick} className="text-light-gray hover:text-white
+                        <li><Link to="/contact" onClick={handleNavClick} className="text-light-gray hover:text-prime
                          transition-all duration-300 text-sm font-semibold font-prata uppercase">Kontakt</Link></li>
                     </ul>
                     <BookButton />
