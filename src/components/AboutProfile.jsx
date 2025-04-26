@@ -32,7 +32,7 @@ function AboutProfile() {
     }, []);
 
     return (
-        <div ref={sectionRef} className="w-full bg-bgprime px-[12%] py-16 border-t-2 border-light-gray">
+        <div ref={sectionRef} className="w-full bg-bgprime px-[12%] py-16 border-t-2 border-third">
             <div className="flex w-full flex-col lg:flex-row items-center gap-16 max-w-7xl mx-auto">
                 <div className={`lg:flex-1 relative ${isVisible ? 'animate__animated animate__fadeInLeft' : 'opacity-0'}`}>
                     <div className="relative z-10 overflow-hidden">

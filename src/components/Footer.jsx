@@ -15,9 +15,9 @@ function Footer() {
                 <div className="flex flex-col items-center md:items-start gap-4">
                     <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left font-prata">Kontakt</h3>
                     <div className="flex flex-col gap-2 space-y-4 text-center md:text-left">
-                        <p className="text-sm font-lato">Prvog Maja 37, Kovačićevo</p>
-                        <p className="text-sm font-lato">manesbarbershop@gmail.com</p>
-                        <p className="text-sm font-lato">+381 64 125 04 70</p>
+                        <p className="text-sm font-prata">Prvog Maja 37, Kovačićevo</p>
+                        <p className="text-sm font-prata">manesbarbershop@gmail.com</p>
+                        <p className="text-sm font-prata">+381 64 125 04 70</p>
                     </div>
                 </div>
 
@@ -25,9 +25,9 @@ function Footer() {
                 <div className="flex flex-col items-center md:items-start gap-4">
                     <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left font-prata">Radno Vreme</h3>
                     <div className="flex flex-col gap-2 space-y-4 text-center md:text-left">
-                        <p className="text-sm font-lato">Ponedeljak - Subota: 9:00 - 21:00</p>
-                        <p className="text-sm font-lato">Nedelja: Zatvoreno (Prekovremeno)</p>
-                        <p className="text-sm font-lato">Praznici: Zatvoreno (Prekovremeno)</p>
+                        <p className="text-sm font-prata">Ponedeljak - Subota: 9:00 - 21:00</p>
+                        <p className="text-sm font-prata">Nedelja: Zatvoreno (Prekovremeno)</p>
+                        <p className="text-sm font-prata">Praznici: Zatvoreno (Prekovremeno)</p>
                     </div>
                 </div>
             </div>

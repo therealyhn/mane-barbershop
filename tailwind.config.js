@@ -13,7 +13,7 @@ export default {
         'second': '#B3B3B3', // Light gray
         'third': '#E6E6E6', // Very light gray
         'light-gray': '#F2F2F2', // Near white
-        'bgprime': '#FFFFFF' // White
+        'bgprime': '#fafafa' // White
       },
       fontFamily: {
         'prata': ['Poppins', 'serif', 'Georgia', 'Times New Roman'],

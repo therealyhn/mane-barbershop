@@ -39,7 +39,7 @@ const ServicesSection = () => {
         <div
             ref={sectionRef}
             className="w-full px-4 sm:px-6 md:px-8 lg:px-20 py-10 md:py-16 
-            flex flex-col items-center justify-center bg-bgprime border-t-2 border-light-gray"
+            flex flex-col items-center justify-center bg-bgprime border-t-2 border-third"
         >
             {/* Header Section */}
             <div className="flex flex-col items-center justify-center mb-8 md:mb-16 w-full">
@@ -94,7 +94,7 @@ const ServicesSection = () => {
                     <h3 className="mt-4 text-lg md:text-xl font-semibold font-prata">
                         Šišanje
                     </h3>
-                    <p className="text-second text-center text-sm md:text-base mt-2 font-lato">
+                    <p className="text-prime text-center text-sm md:text-base mt-2 font-lato">
                         Savršeno šišanje prilagođeno vašem stilu. Posvećenost detaljima kako
                         biste izgledali najbolje svaki put.
                     </p>
@@ -118,7 +118,7 @@ const ServicesSection = () => {
                     <h3 className="mt-4 text-lg md:text-xl font-semibold font-prata">
                         Brada
                     </h3>
-                    <p className="text-second text-center text-sm md:text-base mt-2 font-lato">
+                    <p className="text-prime text-center text-sm md:text-base mt-2 font-lato">
                         Oblikovanje i stilizovanje brade za moderan i negovan izgled. Vaša
                         brada u sigurnim rukama.
                     </p>
@@ -142,7 +142,7 @@ const ServicesSection = () => {
                     <h3 className="mt-4 text-lg md:text-xl font-semibold font-prata">
                         Dizajn
                     </h3>
-                    <p className="text-second text-center text-sm md:text-base mt-2 font-lato">
+                    <p className="text-prime text-center text-sm md:text-base mt-2 font-lato">
                         Jedinstveni dizajni frizura koji izražavaju vašu kreativnost i stil.
                         Pokažite svoju originalnost.
                     </p>
