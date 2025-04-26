@@ -1,6 +1,6 @@
 import 'animate.css'
 import PropTypes from 'prop-types'
-import mustach from '../assets/heading-line.png'
+import mustach from '../assets/heading-line-2.png'
 
 function Header({ title, subtitle, image }) {
     return (
