@@ -8,7 +8,7 @@ function Header({ title, subtitle, image }) {
             <img
                 src={image}
                 alt={title}
-                className="w-full h-full object-cover object-left-top md:object-center opacity-80"
+                className="w-full h-full object-cover md:object-center opacity-80"
                 style={{ filter: 'brightness(0.6)' }}
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
