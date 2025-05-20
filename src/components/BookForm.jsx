@@ -10,7 +10,7 @@ function BookForm() {
 
     const services = {
         klasik: { price: 700, time: 30 },
-        fade: { price: 800, time: 30 },
+        fade: { price: 900, time: 30 },
         nularica: { price: 400, time: 15 },
         brada: { price: 300, time: 15 },
         'brada na #0': { price: 200, time: 10 },
