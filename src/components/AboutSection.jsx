@@ -57,7 +57,7 @@ function AboutSection() {
                     <img src={logo} alt="logo" className="w-[300px]" />
                 </div>
 
-                <p className={`text-third-dark text-base leading-relaxed max-w-xl text-center font-lato
+                <p className={`text-third-dark text-xl leading-relaxed max-w-xl text-center font-lato
                      ${isVisible ? 'animate__animated animate__fadeInUp animate__delay-1s' : 'opacity-0'}`}>
                     Dobrodošli u moj frizerski salon, gde se tradicija susreće s modernim stilom.
                     Posvećen sam pružanju vrhunske usluge šišanja i stilizovanja, prilagođene svakom klijentu.

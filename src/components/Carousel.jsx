@@ -34,7 +34,7 @@ function Carousel() {
             <div className="absolute inset-0 bg-black/30 flex flex-col justify-center px-4 sm:px-10 md:px-20
              text-white pt-16 sm:pt-0">
               <div className="animate__animated animate__fadeInUp ml-4 sm:ml-10 md:ml-20">
-                <p className="text-xs sm:text-lg mb-2 sm:mb-3 max-w-xl text-second font-lato">
+                <p className="text-xs sm:text-lg mb-2 sm:mb-3 max-w-xl text-second drop-shadow-[0_0px_10px_rgba(1,1,1,1)] font-lato">
                   To nije samo šišanje, to je iskustvo</p>
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-6 text-third
                 drop-shadow-[0_0px_10px_rgba(1,1,1,0.5)] uppercase font-prata">Dobrodošli na Mane
@@ -60,7 +60,7 @@ function Carousel() {
             <div className="absolute inset-0 bg-black/30 flex flex-col justify-center px-4 sm:px-10 md:px-20
              text-white pt-16 sm:pt-0">
               <div className="animate__animated animate__fadeInUp ml-4 sm:ml-10 md:ml-20">
-                <p className="text-xs sm:text-sm mb-2 sm:mb-3 max-w-xl font-lato text-second">
+                <p className="text-xs sm:text-lg mb-2 sm:mb-3 max-w-xl text-second font-lato">
                   Klasične i moderne frizerske usluge</p>
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-6 text-third
                  drop-shadow-[0_0px_10px_rgba(1,1,1,0.5)] uppercase font-prata">Najbolji frizer</h1>
@@ -85,7 +85,7 @@ function Carousel() {
             <div className="absolute inset-0 bg-black/30 flex flex-col justify-center px-4 sm:px-10 md:px-20
              text-white pt-16 sm:pt-0">
               <div className="animate__animated animate__fadeInUp ml-4 sm:ml-10 md:ml-20">
-                <p className="text-xs sm:text-sm mb-2 sm:mb-3 max-w-xl font-lato text-second">Najbolje iskustvo</p>
+                <p className="text-xs sm:text-lg mb-2 sm:mb-3 max-w-xl text-second font-lato">Najbolje iskustvo</p>
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-6 text-third
                  drop-shadow-[0_0px_10px_rgba(1,1,1,0.5)] uppercase font-prata">Najbolja usluga</h1>
                 <p className="text-sm sm:text-base md:text-xl mb-2 sm:mb-3 max-w-xl text-second font-lato">

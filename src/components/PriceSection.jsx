@@ -31,7 +31,7 @@ function PriceSection() {
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base font-prata">Fade</span>
                                 <span className="text-prime font-semibold font-prata">
-                                    800 <span className="text-sm">rsd</span></span>
+                                    900 <span className="text-sm">rsd</span></span>
                             </div>
                             <div className="flex justify-between items-center border-b border-light-gray pb-2">
                                 <span className="text-sm md:text-base font-prata">Nularica</span>
