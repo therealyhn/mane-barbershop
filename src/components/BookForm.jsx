@@ -154,9 +154,6 @@ function BookForm() {
                                 <input type="time" id="time" name="time" className="w-full px-3 py-2
                                  border border-light-gray rounded focus:outline-none focus:border-prime text-sm"
                                     value={time} onChange={(e) => setTime(e.target.value)} required />
-                                <p className="text-white text-sm mt-2 font-lato">
-                                    * Napomena: Za termine pre 09:00h, posle 21:00h, za rad nedeljom i praznicima,
-                                    dodatna cena je 300 dinara.</p>
                             </div>
                             <button type="submit" className="w-full bg-prime text-white py-2 rounded 
                             uppercase hover:bg-prime-dark transition-colors duration-300 text-sm font-prata">

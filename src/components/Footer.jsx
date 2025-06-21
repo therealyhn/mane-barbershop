@@ -26,8 +26,8 @@ function Footer() {
                     <h3 className="text-xl font-semibold mb-2 text-prime text-center md:text-left font-prata">Radno Vreme</h3>
                     <div className="flex flex-col gap-2 space-y-4 text-center md:text-left">
                         <p className="text-sm font-prata">Ponedeljak - Subota: 9:00 - 21:00</p>
-                        <p className="text-sm font-prata">Nedelja: Zatvoreno (Prekovremeno)</p>
-                        <p className="text-sm font-prata">Praznici: Zatvoreno (Prekovremeno)</p>
+                        <p className="text-sm font-prata">Nedelja: Zatvoreno</p>
+                        <p className="text-sm font-prata">Praznici: Zatvoreno</p>
                     </div>
                 </div>
             </div>

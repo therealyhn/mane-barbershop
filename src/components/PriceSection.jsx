@@ -74,12 +74,6 @@ function PriceSection() {
                                 <span className="text-prime font-semibold font-prata">
                                     200 <span className="text-sm">rsd</span></span>
                             </div>
-                            <div className="flex justify-between items-center border-b border-light-gray pb-2">
-                                <span className="text-sm md:text-base font-prata">
-                                    Prekovremeno <br /> (pre 9:00, posle 21:00, Nedelja, Praznici)</span>
-                                <span className="text-prime font-semibold font-prata">
-                                    300 <span className="text-sm">rsd</span></span>
-                            </div>
                         </div>
                     </div>
                 </div>
